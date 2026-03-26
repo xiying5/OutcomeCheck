@@ -1,1 +1,2 @@
 # OutcomeCheck
+**OutcomeCheck** is a code repository developed to help researchers: (1) assess the completeness of trial outcome definitions, and (2) detect changes in outcome definitions between different registration versions on ClinicalTrials.gov. It is designed as a companion tool to the article, *"An automated approach to improve clinical trial registration and identify outcome changes on ClinicalTrials.gov"* (Ying X, et al. XXX 2026. doi:XXX).
