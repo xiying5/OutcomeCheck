@@ -1,0 +1,66 @@
+# Guidelines for Comparing "Specific Measurement(s)"
+In clinical trials, outcomes are defined using multiple elements. The "Specific Measurement(s)" refers to the name of an attribute, or the name of a questionnaire or test. Sometimes, this might be "Not reported" or "Not valid".
+
+Your task is to compare “Specific Measurement(s)” for corresponding outcomes in the prospective and last version of a trial registration based on 'Specific measurement(s) (prospective)',  'Specific measurement(s) (last)', 'cosine_distance', and 'jaccard_distance'. 
+
+Important: Ignore the differences in the following:
+  - Calculations and statistical concepts (e.g., "frequency," "number of," "percentage of", "rate," "area under the curve", "geometric mean ratio","average")
+  - Time (e.g., "time to," "duration of", "length of", "days of", "12-months")
+  - Comparison (e.g., "percent change", "change in," "improvement," "reduction", "maximum," "minimum," “peak”)
+  - Operators and cutoffs (e.g., "at least 2% improvement", ">=8", "undetectable", "higher than", "lower than", "below the threshold")
+  - Redundant words (e.g., "level", "status", "score", “scale”)
+  - Details of standardized tools (e.g., structure, content, scoring and interpretation, reliability, validity, administration).
+-Description of the population in which the measurement is taken
+
+Categorize the change status as follows:
+
+1. Answer “No change” if any of the following is met: 
+1.1 “cosine_distance” or 'jaccard_distance' is 0 or very close to 0.
+1.2 If both are attribute names, and:
+a. They refer to the same attribute in a research context, even if 
+-Phrased differently (e.g., study retention vs study completion).
+-The device/test name is mentioned in one version but not the other.
+b. They refer to opposite statuses of the same concept (e.g., overall survival and all-cause mortality, adherence and non-adherence).
+1.3 If both are standardized scales, they refer to the same questionnaire, even if:
+-Version number included in one but not the other.
+-Author name and year included in one but not the other.
+-Acronyms in one and full spelled-out names in the other.
+1.4 If both are “study-specific” questionnaires, and the number of questions, type of questions, and the attributes measured by the questions match.
+1.5 If both are composite outcomes or outcomes defined by multiple criteria, and all components match.
+1.6 Both are “Not valid” or "Not reported”.
+
+2. Answer “More complete” if “Not valid” or “Not reported” in the prospective version and validly reported in the last version.
+
+3. Answer “Less complete” if validly reported in the prospective version and “Not valid” or “Not reported” in the last version.
+
+4. Answer “Change in definition”  if any of the following is met: 
+4.1 Both are names of an attribute, and they differ meaningfully in a research context.
+-Attributes differ if the source, type, order, or nature of the attribute is different.
+Examples of different attributes:
+-“Urine glucose” vs “Blood glucose”
+-”Use of any additional treatment” vs “Use of any evidence-based additional treatment”
+
+4.2 Both are standardized scales, and they are different scales, including:
+-A full scale and its subscale or component are different.
+-A scale and its revised or adapted version are different.
+
+4.3 Both are “study-specific” questionnaires: The number or type of questions differ or the attributes measured by the questions differ.
+4.4 Both are composite outcomes, and any of the components is removed, added, or differs.
+4.5 “Not valid” in one and “Not reported” in the other.
+
+# Task
+Respond as scientists with expertise in evaluating clinical trial outcomes. Return a table in proper JSON format with 'table' as the overall key, and 'columns' and 'rows' as other keys. The responses will be within lists, not dictionaries. No additional text will be added beyond the JSON.
+
+## Table structure
+The table will contain each unique outcome in a row, organized as follows:
+Column 1: “Identifier (prospective)”
+Column 2: “Identifier (last)”
+Column 3: “Rationale, Change status”
+Column 4: “Change status”
+
+## Instructions for populating the table
+Column 1: Enter the contents of “Identifier (prospective)” of the input table verbatim .
+Column 2: Enter the contents of “Identifier (last)” of the input table verbatim .
+Column 3: Provide a chain of thoughts explaining the change status of “Specific Measurement(s)”.
+Column 4: Based on the chain of thoughts, enter “No change”, “More complete”, “Less complete”, or “Change in definition”.
+

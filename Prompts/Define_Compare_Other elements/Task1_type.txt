@@ -1,0 +1,115 @@
+# 1. Guidelines for defining “Aggregation method”
+-In clinical trials, outcomes are defined using multiple elements. 
+-“Aggregation method” is how results for individual participants are aggregated and compared between groups. Possible values: "Continuous", "Categorical", "Continuous; Categorical", or "Not reported". 
+-The outcomes you will assess were all predefined in clinical trials. 
+
+# 2. Common aggregation method: Answer the typical aggregation method for this outcome in clinical trials
+
+Answer "Continuous" if: the outcome is typically analyzed by mean/median.
+
+Answer "Categorical" if the outcome is typically analyzed by proportion/rate.
+
+# 3. Actual aggregation method: Look for explicit information in the text about the aggregation method in this clinical trial
+
+## 3a. Answer "Not reported” if there is no explicit information about the method that will be used to aggregate and compare values between groups in the clinical trial.
+
+- For outcomes typically compared by continuous aggregation methods, explicit information is required for the "Actual aggregation method" to be "Continuous".
+- For outcomes typically assessed by categorical aggregation methods, explicit information (e.g., proportion, rate) is required for the "Actual aggregation method" to be "Categorical".
+-For time-to-event and count data, explicit information is required for the "Actual aggregation method" to be either “Continuous” (e.g., mean, t-test) or "Categorical” (e.g., proportion, rate) following the rules below.
+
+## 3b. Answer "Continuous" if the text states explicitly that groups will be compared using the mean or median, including "Geometric mean", "Least square mean", "Average", or other words and phrases describing group means or medians.
+
+### Ignore mean or median values calculated at the individual participant level rather than aggregated at the group level (e.g., Mean Amplitude of Glycemic Excursions, average daily step count over 3 days), including descriptions of means or averages that refer to scores on questionnaires for individual participants (e.g., “the total score is the mean of 12 items scored from 1 to 4”).
+
+### Ignore statements about the average follow-up time (e.g., mean follow-up of 3 years).
+
+### Examples
+-Difference in mean cognitive composite score 
+-Average change from baseline Pain Score
+-Mean fasting plasma glucose in both treatment groups 
+-Median overall survival
+
+## 3c. Answer "Continuous" if statistical tests that compare mean/median are explicitly mentioned
+
+### Examples
+-Generalized linear mixed model (GLMM)
+-Linear mixed model (LMM)
+-Linear regression
+-t-test
+-Mann-Whitney U Test 
+-Wilcoxon Rank-Sum Test
+-Wilcoxon Signed-Rank Test
+-Kruskal-Wallis
+-Rank-sum
+-Mean difference
+-Standardized mean difference
+-Analysis of variance (ANOVA)
+-Repeated Measures (ANOVA)
+-Generalized Estimating Equations (GEE)
+-Multivariate Analysis of Variance (MANOVA)
+-Analysis of Covariance (ANCOVA)
+
+## 3d. Answer "Categorical" if the text explicitly states that the outcome is a proportion or rate, or number of participants.
+
+### Examples
+-Mortality rate
+-Number of participants with a complete pathological response
+-Incidence of HIV infection
+-Cumulative incidence of new onset diabetes
+-Percentage of Participants With Improvement in the Functional Assessment of Cancer Therapy - Hepatobiliary (FACT-Hep) Total Score
+-Number of people with adverse events during the study
+-Proportions of participants improved, not improved, and worse
+-Likelihood of developing adverse events
+-Probability of participant dropout
+
+###  Ignore proportions, rates, number of events calculated at the individual participant level rather than aggregated at the group level  (e.g., “Percentage of sessions completed by a participant”, "number of ICU admissions")
+
+
+## 3e. Answer "Categorical" if statistical tests that compare proportion/rate are explicitly mentioned
+
+### Examples
+-log rank
+-chi-squared
+-logistic regression
+-cox regression
+-cumulative event rate
+-incidence rate
+-cumulative incidence
+-competing risk analysis
+-relative risk
+-risk ratio
+-risk difference
+-odds ratio
+-hazard ratio
+-Exact Binomial Test
+-Fisher’s exact test
+-Mantel-Haenszel Test
+-Poisson Regression
+-Negative Binomial Regression
+-McNemar's Test
+
+
+## 3f. Answer "Continuous; Categorical” if there is explicit information that groups will be compared both continuously and categorically.
+
+
+# Task
+To answer each question, think step by step. Define the "Common aggregation method" and "Actual aggregation method" of each outcome listed in the input and provide the reasons for your answer. Respond as an expert with knowledge of medicine, epidemiology, and statistics.
+
+## Format
+Return a table in proper JSON format with 'table' as the overall key, and 'columns' and 'rows' as other keys. The responses will be within lists, not dictionaries. No additional text will be added beyond the JSON.
+
+## Table structure
+The table will include each outcome in a row, organized as follows:
+Column 1: “Identifier”
+Column 2: "Common aggregation method"
+Column 3: "Rationale, Actual aggregation method"
+Column 4: “Actual aggregation method”
+
+## Instructions for populating the table
+Headers: The first row will include the column headers above.
+Column 1: Enter the contents of “Identifier” of the input table verbatim.
+Column 2: Enter the “Common aggregation method" based on your knowledge. 
+Column 3: Provide the chain of thoughts for determining "Actual aggregation method".
+Column 4: Enter the “Actual aggregation method" based on the chain of thoughts. 
+
+Ensure all outcomes are described. If there are more outcomes in the input than the number of rows in the table, revisit the table and add any missing outcomes.

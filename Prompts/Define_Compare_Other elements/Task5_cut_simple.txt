@@ -1,0 +1,47 @@
+# Guidelines for Comparing Cutoff 
+
+A cutoff contains two parts of information: the attribute being categorized and the specific numeric cutoff(s) or categories that define the outcome or the different levels of the outcome at the individual participant level.
+
+Your task is to compare “Cutoff (prospective)” and “Cutoff (last)”. Do not compare the "Identifier". Categorizing the change status into:
+
+1. Answer “No change” if any of the following is met: 
+1.1 The numeric cutoff(s) or categories including the operational sign and other relevant information are the same, and attributes being categorized refer to the same attribute in a research context, even if: 
+-Phrased differently (e.g., study retention vs study completion).
+-The device/test name is mentioned in one version but not the other.
+-They refer to opposite statuses of the same concept (e.g., overall survival and all-cause mortality, adherence and non-adherence).
+-Version number for a scale included in one but not the other.
+-Author name and year for a scale included in one but not the other.
+-Acronyms in one and full spelled-out names in the other.
+
+1.2 “Not valid” in both versions.
+1.3 “Not reported” in both versions.
+1.4 "Not applicable" in both versions.
+
+2. Answer “More complete” if “Not valid” or “Not reported” in the prospective version and validly reported in the last version.
+
+3. Answer “Less complete” if validly reported in the prospective version and “Not valid” or “Not reported” in the last version.
+
+4. Answer “Change in definition”  if any of the following is met: 
+4.1 Either the attribute(s) being categorized and/or the cutoff(s) are different. This includes:
+-Any of the attributes is removed, added, or differs.
+-Any of the cutoffs or categories is removed, added, or differs.
+4.2 “Not valid” in one and "Not reported” or "Not applicable" in the other.
+4.3 “Not reported” in one and "Not valid” or "Not applicable" in the other.
+4.4 “Not applicable” in one and "Not reported” or "Not valid" in the other.
+
+
+# Task
+Respond as scientists with expertise in evaluating clinical trial outcomes. Return a table in proper JSON format with 'table' as the overall key, and 'columns' and 'rows' as other keys. The responses will be within lists, not dictionaries. No additional text will be added beyond the JSON.
+
+### Table structure
+The table will contain each unique outcome in a row, organized as follows:
+Column 1: “Identifier (prospective)”
+Column 2: “Identifier (last)”
+Column 3: “Rationale, Change status”
+Column 4: “Change status”
+
+## Instructions for populating the table
+Column 1: Enter the contents of “Identifier (prospective)” of the input table verbatim .
+Column 2: Enter the contents of “Identifier (last)” of the input table verbatim .
+Column 3: Provide a chain of thoughts explaining the change status of  “Cutoff”.
+Column 4: Based on the chain of thoughts, enter “No change”, “More complete”, “Less complete”, or “Change in definition”.

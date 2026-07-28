@@ -1,0 +1,351 @@
+# Guidelines for Defining “Specific measurement” for a Single Score or Event
+
+# 1. Objectives
+Review an outcome registered on ClinicalTrials.gov. Identify the attribute(s) assessed, and identify the names of any tools or questionnaires used to assess the attribute(s).
+
+## Steps:
+a. Determine the attribute type, which might be:
+-Directly Observable,
+-Assessed by Standardized Device or Test, or
+-Subjective or Complex.
+
+b. If the attribute is Subjective or Complex, determine whether it is assessed using a:
+-Objective or observable indicator,
+-Indicator assessed by standardized device or test, or
+-Specialized tool, questionnaire, test, or instrument.
+
+c. Name the “Specific measurement”, which might be:
+-The name of an attribute that is directly observable or assessed by standardized device or test, or 
+-The name of a specialized tool, questionnaire, or instrument, or 
+-“Not reported”
+
+#2. Determine the attribute type
+-An attribute is a characteristic or property of patients or subjects to be quantified, assessed, or categorized.
+-An attribute is not the data source or data collection method (e.g., it is not electronic medical record, self-report, or chart review).
+
+Examples of biological attributes: blood pressure, heart rate, glucose level.
+Examples of psychological attributes: anxiety, depression, cognitive function.
+Examples of behavioral attributes: smoking habits, exercise frequency, diet patterns.
+Examples of clinical outcomes: survival, disease recurrence.
+
+##2.1 Directly Observable
+-Measured by direct observation without specialized tools, questionnaires, tests, or instruments. 
+-Many research articles describing the attribute would not describe how it was assessed.
+-Occurence of the event, or the initiation or completion of the action, could be assessed objectively and directly.
+-Data are commonly collected from hospital, medical, and registry records.
+
+-Diagnosis, remission, progression, or recurrence of a disease is usually not a directly observable attribute.
+- A single symptom (e.g., cough) might be a directly observable attribute, but symptom severity and scores on questionnaires are not directly observable.
+
+Examples:
+-Mortality
+-Hospitalization
+-Undergoing mammography for breast cancer screening
+-Vomiting
+-Falling
+
+##2.2 Assessed by Standardized Device or Test
+-Assessed using common devices or tests considered interchangeable for research purposes.
+-A research article describing the outcome would not normally name the manufacturer, model, or version of the device or test.
+-Never a patient-reported outcome assessed using a questionnaire.
+
+Example attributes:
+-Height
+-Weight
+-Systolic blood pressure
+-Heart rate
+-Hemoglobin
+-Serum creatinine
+-Blood glucose
+
+Example Standardized Devices and Tests:
+-X-ray
+-Spirometer
+-Glucometer
+-Blood test
+-Microbiology test
+
+##2.3 Subjective or Complex
+-Cannot be observed directly or quantified objectively, including outcomes measured by objective or observable indicators, measured by attributes assessed by standardized devices or tests, and measured using specialized tools, questionnaires, psychological/cognitive tests, or instruments.
+-Research articles  use different methods to measure the attribute. An article describing the outcome would normally name the questionnaire, model, version of the device or test, or clinical criteria.
+-All patient-reported outcomes assessed using questionnaires.
+-Diagnosis, remission, progression, or recurrence of a disease is often complex and not directly observable.
+
+Examples:
+-Cognitive functioning (e.g., memory, attention, language)
+-Mental health conditions (e.g., depression, anxiety, stress)
+-Quality of life
+-Symptom severity (e.g., pain, fatigue)
+-Functional status (e.g., daily activities)
+-Psychosocial factors (e.g., social support)
+-Knowledge about health problems or treatments
+-Patient satisfaction with a medical decision or health care service
+
+###2.3.1 Objective or observable indicator
+-The attribute cannot be observed directly or quantified objectively, but it is assessed using an objective or observable indicator. 
+-An attribute that could be assessed using an objective or observable indicator might not necessarily be assessed that way.
+
+Examples:
+-"Feasibility" measured by successful recruitment, which can be assessed through direct observation.
+-"Adherence" measured by pill count, which is an observable indicator.
+-“Healthcare utilization” measured by ICU admission, which is an observable indicator.
+
+###2.3.2 Indicator assessed by standardized device or test
+The attribute cannot be observed directly or quantified objectively, but it is defined by an indicator that is assessed by standardized devices or rests.
+
+Examples:
+-The attribute ”preterm birth” is defined by “gestational age”, which is assessed using standardized methods considered interchangeable for research.
+-The attribute “virologic resuppression” is defined by “viral load”, which is measured using a common blood test (e.g., PCR) considered interchangeable for research.
+-The attribute ”body composition” can be measured by “fat mass” and “lean body mass”, which are measured using common devices considered interchangeable for research (e.g, Dual-Energy X-ray Absorptiometry).
+
+###2.3.3 Specialized tool, questionnaire, test, or instrument
+-The attribute is measured using specialized tools, questionnaires, psychological/cognitive tests, or instruments. Synonyms for “measured” include “evaluated”, “rated”, “assessed”, “graded”, and “defined”.
+-Names of tools are often capitalized, preceded by the definite article, and may include words like "Scale", "Subscale", "Score", "Criteria", "Questionnaire", "Index", "Survey", "Instrument", "Test", etc., or be represented by acronyms (e.g., "BPI").
+
+
+#3. Instructions for naming the "Specific measurement"
+##3.1 The "Specific measurement" is the name of an attribute or indicator that is “Directly Observable” or assessed by a “Standardized Device or Test”: 
+
+### Instructions for naming an attribute or indicator
+a.Include the specific cause, type, source, or order if reported.
+
+Examples:
+-”systolic blood pressure” rather than “blood pressure”
+-”serum IgG” rather than “antibody”
+-”Hospitalization for depression” rather than “Hospitalization”
+-”Mortality due to heart attack” rather than “Mortality”
+-”Full term birth” rather than “Birth”
+-”Antipsychotic initiation” rather than “Antipsychotic use”
+-”Second pregnancy” rather than “pregnancy”
+
+b.Do not include the following information: 
+-Calculations and statistical concepts (e.g., "frequency," "number of," "percentage of", "rate," "area under the curve", "geometric mean ratio", "average", “count”)
+-Time (e.g., "time to," "duration", "length", "days", "12-months")
+-Comparison (e.g., "percent change", "change in," "improvement," "reduction", "maximum," "minimum")
+-Operators and cutoffs (e.g., "at least 2% improvement", ">=8", "undetectable", "higher than", "lower than", "below the threshold")
+-Unnecessary or redundant words (e.g., don't add "status" after an event, "level" after a biomarker).
+-Data source or data collection method (e.g., electronic medical record, self-report, or chart review)
+-Description of the population in which the measurement is taken
+
+Examples:
+-“Stent placement” rather than "number of stents placed"
+-“Hospital discharge” rather than “time to discharge”
+-“Hospital stay” rather than “length of hospital stay”
+-“Pills taken” rather than “change in the pill count”
+-“Body weight” rather than "change in body weight"
+-“Height” rather than “rate of linear growth”
+-“Systolic blood pressure” rather than “Systolic blood pressure<140 mmHg”
+-“Viral load” rather than “Peak viral load”
+
+##3.2  The "Specific measurement" is the name of a questionnaire or tool.
+
+### Instructions for naming a tool or questionnaire
+
+a. For a validated tool or questionnaire used commonly in clinical and research settings.
+Determine the full name based on all text provided and by applying your knowledge of clinical trials.
+-Answer the full name
+-Include the acronym, if there is one.
+-Include the subscale name if a subscale rather than a full scale is used.
+-Include version number if reported.
+-Include author name and year if reported.
+-For modified versions, indicate the modification
+
+Examples:
+-Beck Depression Inventory (BDI-2), Beck 1996
+-Patient Health Questionnaire-9 (PHQ-9)
+
+
+Do not include the following unless part of the formal name: 
+-The word "scale" or "subscale".
+-Numbers (e.g., number of questions, score cutoffs).
+-Details of the standardized tool (e.g., structure, content, scoring and interpretation, reliability, validity, administration).
+
+b.  If the tool or questionnaire is not a validated instrument commonly used in clinical and research settings
+Answer "Study-specific" followed by:
+ -Number of questions (e.g., "1-question", "5-questions")
+ -Question type (e.g., "Yes/No", "3-point Likert scale", "rating scale", "open-ended")
+ -Attributes measured by the questions, named following instructions in “#3.1”.
+
+##3.3 The "Specific measurement" is “Not reported” if:
+a. The attribute is Subjective and Complex, and no directly observable indicator is mentioned.
+b. The attribute is Subjective and Complex, and no indicator that is assessed by standardized devices or tests is mentioned.
+c. The attribute is Subjective and Complex, and no validated questionnaire or tool is mentioned.
+d.The attribute is subjective and complex,  and a non-standardized survey is mentioned, but neither number of questions nor question type are stated.
+
+#4. Examples
+## Example 1
+Question: “Outcome Measure: Feasibility. Outcome Description: The primary aim/outcome of this pilot study is the feasibility of recruiting older veterans with PTSD to participate in a 12-week exercise program. The number of veterans recruited out of the total number contacted will be determined at baseline. Time Frame: Baseline”. What is the “Specific measurement” of this outcome? 
+
+Rationale: The outcome measures the feasibility of recruiting older veterans with PTSD into a 12-week exercise program. Feasibility is a Subjective or Complex attribute (as per section 2.3 of the guidelines). It is assessed using an objective or observable indicator (section 2.3.1): the actual recruitment of veterans.
+
+Naming the Specific Measurement: According to section 3.1, we should name the observable indicator without statistical terms or calculations. Avoid phrases like "number of veterans recruited" (since "number of" is a statistical concept to exclude).
+Include specific details (section 3.1a): "older veterans with PTSD."
+
+Specific measurement: "Recruitment"
+
+## Example 2
+Question: “Outcome Measure: Incidence of Grade 3 or Higher Adverse Events as Assessed by National Cancer Institute Common Terminology Criteria for Adverse Events Version 4.0. Outcome Description: . Time Frame: Approximately 4 years“. What is the “Specific measurement” of this outcome? 
+
+Rationale: The outcome measures the incidence of Grade 3 or higher adverse events in participants over approximately four years. Adverse events are a range of symptoms, signs, or laboratory abnormalities that occur during a clinical study. They are Subjective or Complex attributes (as per section 2.3 of the guidelines). The adverse events are assessed using the National Cancer Institute Common Terminology Criteria for Adverse Events Version 4.0 (NCI CTCAE v4.0).  This outcome falls under the category to, where a subjective or complex attribute is measured using a specialized tool, questionnaire, test, or instrument (section 2.3.3),.
+
+Naming the Specific Measurement: Following the instructions in section 3.2 for naming a tool or questionnaire: Answer the full name: "National Cancer Institute Common Terminology Criteria for Adverse Events". Include the acronym: "(NCI CTCAE)".
+Include version number: "Version 4.0". Do not include unnecessary details such as the words "scale" or "number of events."
+
+Specific Measurement: "National Cancer Institute Common Terminology Criteria for Adverse Events Version 4.0 (NCI CTCAE v4.0)"
+
+## Example 3
+Q: “Outcome Measure: Change in Baseline Aerobic Capacity after 4 Months of FES-row Training. Outcome Description: Volunteers will perform 2 separate maximal incremental FES-row tests. Time Frame: Baseline and 3 months“. What is the “Specific measurement” of this outcome? 
+
+Rationale: The outcome measures the change in aerobic capacity after 4 months of FES-row training. Aerobic capacity is a physiological parameter that quantifies the body's ability to utilize oxygen during exercise. It is assessed using standardized exercise tests, such as maximal incremental tests. Therefore, it falls under Assessed by Standardized Device or Test (section 2.2 of the guidelines).
+
+Naming the Specific Measurement: According to section 3.1, we should name the attribute without including time-related aspects or statistical concepts. Exclude phrases like "change in," "baseline," or "after 4 months." Include specific details if available, but in this case, "aerobic capacity" sufficiently describes the measurement.
+
+Specific Measurement: "Aerobic Capacity"
+
+
+## Example 4
+Q: “Outcome Measure: Frequency of Heart Failure Hospitalizations in the Past Month at End of 12 Weeks as Assessed by Self-report. Outcome Description: This measure will be obtained through participant self-report. Time Frame: Baseline, 12 weeks“. What is the “Specific measurement” of this outcome? 
+
+Rationale: The outcome measures the frequency of heart failure hospitalizations as reported by participants at the end of 12 weeks. Hospitalization is an event that is Directly Observable (as per section 2.1 of the guidelines). The fact that it is collected through self-report does not change the attribute type, since data collection methods do not define the attribute (as mentioned in section #2).
+
+Naming the Specific Measurement: According to section 3.1, we should: Include the specific cause (section 3.1a): "heart failure." Exclude statistical concepts like "frequency" or "number of" (section 3.1b). Exclude time frames such as "in the past month" or "at end of 12 weeks." Exclude data collection methods like "as assessed by self-report."
+
+Specific Measurement: "Hospitalization for heart failure"
+
+## Example 5
+Q: “Outcome measure: Proportion of physicians who initiate any discussion related to the patient's age-related issues, Outcome description: N/A, Time frame: Up to 20-24 weeks.” What is the “Specific measurement” of this outcome? 
+
+Rationale: The outcome measures whether physicians initiate any discussion related to the patient's age-related issues over a period of 20-24 weeks. The attribute is the initiation of discussions by physicians, which is an action that can be directly observed.
+
+Naming the Specific Measurement: Following the instructions in section 3.1 for naming attributes that are directly observable: Include the specific type (section 3.1a): "discussions related to patient's age-related issues." Avoid statistical concepts (section 3.1b): Exclude terms like "proportion," "frequency," or "number of." Exclude time frames: Do not include "up to 20-24 weeks." Exclude data collection methods: Do not mention "as assessed by self-report." 
+
+Specific Measurement: "Physician initiation of discussions related to patient's age-related issues"
+
+
+ ## Example 6
+Q: “Outcome Measure: Heart Rate(HR). Outcome Description: Heart rate monitored with Dash4000 equipment. Intravenous ciprofol up to 3 minutes after tracheal intubation. Time Frame: 24 hours after the intervention“. What is the “Specific measurement” of this outcome? 
+
+Rationale: The outcome measures the heart rate (HR) of participants following an intervention involving intravenous ciprofol and tracheal intubation. Heart rate is a physiological parameter assessed using standardized devices (e.g., heart rate monitors).
+
+Naming the Specific Measurement: As per section 3.1, we should: Name the attribute without including time frames, data collection methods, or device specifics. Exclude details such as the equipment used ("Dash4000 equipment"), time frames ("24 hours after the intervention"), or procedures ("intravenous ciprofol up to 3 minutes after tracheal intubation").
+
+Specific Measurement: "Heart Rate"
+
+
+## Example 7
+Q: “Outcome measure: Bleeding episode treatment success, Outcome description: No additional hemostatic product required after 12 hours of first dose, Time frame: 12 hours after first administration of study drug.”  What is the “Specific measurement” of this outcome? 
+
+Rationale: The outcome measures "Bleeding episode treatment success", which is defined as "No additional hemostatic product required after 12 hours of first dose." Bleeding episode treatment success is a Subjective or Complex attribute because "treatment success" can vary in definition and is not directly observable. It is assessed using an objective or observable indicator (section 2.3.1): whether additional hemostatic product was administered.
+
+Naming the Specific Measurement: According to section 3.1, we should: Name the observable indicator without including negations (e.g., "no"), time frames, or operators.
+Include specific details (section 3.1a): "additional hemostatic product." Exclude time-related phrases like "after 12 hours." Exclude negations like "no" or "not required," as per section 3.1b (avoid operators and cutoffs).
+
+Specific Measurement: "Administration of additional hemostatic product"
+
+## Example 8
+Q: “Outcome Measure: Percent of Time With BG Between 70-180 mg/dL While Hospitalized. Outcome Description: Glycemic control is measured by the percent of time with BG in the range of 70-180 mg/dL. Time Frame: During hospitalization (up to 10 days)”. What is the “Specific measurement” of this outcome? 
+
+Rationale: The outcome measures glycemic control, which is defined as the percent of time with blood glucose (BG) between 70-180 mg/dL during hospitalization. Glycemic control is a Subjective or Complex attribute (as per section 2.3 of the guidelines) because it cannot be directly observed or quantified objectively. It is assessed using an indicator measured by standardized devices or tests (section 2.3.2): Blood Glucose.
+
+Naming the Specific Measurement: According to section 3.1, when naming an attribute assessed by a standardized device or test: Include the specific type if reported (section 3.1a). In this case, the attribute is blood glucose. Exclude calculations and statistical concepts (section 3.1b): Do not include terms like "percent of time," "frequency," or "rate."
+Exclude time frames: Do not include "while hospitalized" or "during hospitalization (up to 10 days)." Exclude operators and cutoffs: Do not include "between 70-180 mg/dL" or any numerical thresholds. Exclude data collection methods: Do not mention how the data was collected or any devices used.
+
+Specific Measurement: "Blood Glucose"
+
+
+## Example 9
+Q: “Outcome Measure: Wood smoke exposure. Outcome Description: Pre- to post-intervention change in indoor PM2.5 concentrations. Time Frame: The participants will be followed for four months during each of two successive winter periods for a total of eight months of observation”. What is the “Specific measurement” of this outcome? 
+
+Rationale: The outcome measures wood smoke exposure, which is described as the pre- to post-intervention change in indoor PM2.5 concentrations. Wood smoke exposure is a Subjective or Complex attribute because it cannot be directly observed or quantified objectively. It is assessed using an indicator measured by standardized devices or tests (section 2.3.2): Indoor PM2.5 concentrations.
+
+Naming the Specific Measurement: According to section 3.1, when an attribute is assessed by a standardized device or test, we should name the indicator without including statistical concepts or comparisons. Include the specific type and source (section 3.1a): "Indoor PM2.5 concentrations." Exclude calculations and statistical concepts (section 3.1b): Do not include phrases like "pre- to post-intervention change."
+Exclude time frames, comparisons, and operators: Do not mention "over eight months" or "during winter periods."
+
+Specific Measurement: "Indoor PM2.5 concentrations"
+
+## Example 10
+Q: “Outcome measure: Game Acceptability, Outcome description: Game acceptability will be assessed by the post-intervention survey. Questions include attitudes towards the game, phone, and content of individual modules., Time frame: 'Month 3". What is the “Specific measurement” of this outcome? 
+
+Rationale: The outcome measures Game Acceptability, focusing on participants' attitudes toward the game, the phone used, and the content of individual modules.
+Game Acceptability is a Subjective or Complex attribute (as per section 2.3) because it involves personal perceptions and opinions. It is assessed using a post-intervention survey, which is not a named, validated instrument. Since the survey is not a validated instrument commonly used in clinical and research settings, it falls under Study-specific tools (section 3.2b). The survey assesses specific attributes: attitudes towards the game, phone, and content of individual modules. The number of questions and question types are not reported. Because neither number of questions nor question type are stated, specific measurement is "Not reported."
+
+Specific Measurement: "Not reported"
+
+## Example 11
+Q: “Outcome Measure: Change in Propositional Knowledge. Outcome Description: Knowledge measures will be assessed via a score derived by a series of True/False survey questions, and will address puberty, HIV, STIs, pregnancy, condoms, and alcohol & drugs. Time Frame: Month 2, Month 3, Month 4. ” What is the “Specific measurement” of this outcome? 
+
+Rationale: The outcome measures "Propositional Knowledge", specifically knowledge related to puberty, HIV, STIs, pregnancy, condoms, and alcohol & drugs. Knowledge is a Subjective or Complex attribute (as per section 2.3 of the guidelines) because it involves cognitive understanding that cannot be directly observed or measured objectively. The knowledge is assessed via a score derived from a series of True/False survey questions. The tool is not a named, validated instrument commonly used in clinical and research settings. According to section 3.2b, when the tool is not a validated instrument, and the number of questions is not specified but the question type is provided, we should classify it as Study-specific.
+
+Naming the Specific Measurement: Following the instructions in section 3.2b:
+Answer "Study-specific" because the survey is not a validated instrument. Include the question type: "True/False survey questions". Include the attributes measured, named according to section 3.1 (without unnecessary words or statistical concepts).
+
+Specific Measurement: "Study-specific True/False survey assessing knowledge about puberty, HIV, STIs, pregnancy, condoms, and alcohol & drugs"
+
+## Example 12
+Q: “Outcome Measure: Change in BPI Outcomes (SEVERITY). Outcome Description: Change from baseline to week 4 in BPI (Brief Pain Inventory) pain severity severity score BPI severity score is expressed on 0-10 scale, with 0 being the minimum (least), and 10 being the maximum (worst) pain severity. Time Frame: Baseline to week 4.” What is the “Specific measurement” of this outcome? 
+
+Rationale: The outcome measures pain severity in participants over a period from baseline to week 4. Pain severity is a Subjective or Complex attribute (as per section 2.3 of the guidelines) because it involves personal perceptions that cannot be directly observed or quantified objectively. It is assessed using a specialized tool or questionnaire. The pain severity is assessed using the Brief Pain Inventory (BPI).
+Specifically, it utilizes the Pain Severity Score subscale of the BPI.
+According to section 2.3.3, when a subjective or complex attribute is measured using a specialized tool or questionnaire, we should identify the instrument used.
+
+Naming the Specific Measurement: Following the instructions in section 3.2 for naming a tool or questionnaire: Answer the full name: "Brief Pain Inventory". Include the acronym: "(BPI)" Include the subscale name: "Pain Severity Score". Do not include additional details such as scoring ranges, time frames, or descriptions of the scale.
+
+Specific Measurement: "Brief Pain Inventory (BPI) Pain Severity Score"
+
+## Example 13
+Q: “Outcome Measure: Time to the first occurrence of non-fatal stroke. Outcome Description: The time from randomization to the first occurrence of Non-fatal Stroke. Time Frame: At first occurrence (up to 60 Months).” What is the “Specific measurement” of this outcome? 
+
+Rationale: The outcome measures the time to the first occurrence of non-fatal stroke from randomization, over a period of up to 60 months. Non-fatal stroke is a Subjective or Complex attribute because it involves the diagnosis of a medical condition, which is often complex and not directly observable (as per section 2.3 of the guidelines). Diagnosis of a stroke typically requires clinical assessment and imaging studies, and it is not directly observable without specialized evaluation. There is no mention of a directly observable indicator used to assess the occurrence of non-fatal stroke. There is no indicator assessed by standardized devices or tests specified for measuring the stroke occurrence. There is no mention of a validated questionnaire or specialized tool used to assess this attribute. According to section 3.3, the "Specific measurement" is "Not reported".
+
+Specific Measurement: "Not reported."
+
+## Example 14
+Q: “Outcome Measure: Geometric Mean Titers (GMTs) of influenza vaccine antibodies (post-vaccination). Outcome Description: Antibody titers will be measured by hemagglutination inhibition (HAI) assay. Time Frame: Day 28 (post-vaccination)” What is the “Specific measurement” of this outcome? 
+
+Rationale: The outcome measures the levels of antibodies against influenza vaccine antigens in participants. Antibody titers are measured using the hemagglutination inhibition (HAI) assay on Day 28 post-vaccination. Antibody titers are biological markers measured using standardized laboratory tests. A research article would not normally name the manufacturer or specific version of the test.
+
+Naming the Specific Measurement: Following section 3.1 for naming attributes assessed by standardized devices or tests: Include the specific type and source (section 3.1a): "Influenza vaccine antibody titers." Exclude calculations and statistical concepts (section 3.1b): Do not include "Geometric Mean Titers (GMTs)" because "geometric mean" is a statistical concept. Exclude time frames: Do not mention "post-vaccination" or "Day 28." Exclude data collection methods: Do not include "measured by hemagglutination inhibition (HAI) assay."
+
+Specific Measurement: "Influenza vaccine antibody titers"
+
+## Example 15
+Q: “Outcome Measure: Duration of Supplemental Oxygen. Outcome Description: Duration (in days) of total supplemental oxygen use among those participants who required new or increased oxygen at randomization. The duration is restricted to duration between randomization and last visit. Time Frame: From Day 0 to Day 28 visit. The window of the Day 28 visit was 28-32 days from study entry.” What is the “Specific measurement” of this outcome? 
+
+Rationale: The outcome measures the duration (in days) of total supplemental oxygen use among participants who required new or increased oxygen at randomization, from Day 0 to Day 28. Supplemental Oxygen Use is an action that can be directly observed and recorded. 
+
+Naming the Specific Measurement: Following the instructions in section 3.1 for naming attributes that are directly observable: Include the specific type if reported (section 3.1a): The attribute is "Supplemental Oxygen Use." Exclude calculations and statistical concepts (section 3.1b): Do not include terms like "duration," "in days," or "total." Exclude time frames: Do not mention "from Day 0 to Day 28" or "between randomization and last visit." Exclude unnecessary words: Do not include phrases like "among those participants who required new or increased oxygen at randomization" unless essential.
+
+Specific Measurement: "Supplemental Oxygen Use"
+
+
+# Task
+
+-Define and name the “Specific measurement” following the instructions.
+-Respond as a clinician and scientist with medical knowledge, expertise in medical terminologies and knowledge of how to diagnose and measure the health conditions being assessed in this study.
+-Think step by step and provide the reasons for your answer as in the examples above. 
+-Do not use information from other outcomes in the input to derive the answer for the current outcome. 
+
+## Format
+Return a table in proper JSON format with 'table' as the overall key, and 'columns' and 'rows' as other keys. The responses will be within lists, not dictionaries. No additional text will be added beyond the JSON.
+
+## Table structure
+The table will include each outcome in a row, organized as follows:
+Column 1: "Version"
+Column 2: "Identifier"
+Column 3: "Rationale"
+Column 4: “Naming the Specific Measurement”
+Column 5: "Specific measurement"
+
+## Instructions for populating the table
+Headers: The first row will include the column headers above. 
+
+Column 1: Enter the contents of "Version" of the input table verbatim.
+Column 2: Enter the contents of "Identifier" of the input table verbatim.
+
+Column 3: Provide your chain of thoughts for determining the “Specific measurement”.
+
+Column 4: Provide your chain of thoughts for naming the “Specific measurement”.
+
+Column 5: Enter the "Specific measurement” based on your chain of thoughts. 
+
+Ensure all outcomes in the input are described. Treat each outcome independently. If there are more outcomes in the input than the number of rows in the table, revisit the table and add any missing outcomes.

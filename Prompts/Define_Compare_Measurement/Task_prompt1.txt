@@ -1,0 +1,197 @@
+# Guidelines for Identifying the Composition of Outcomes
+
+## Objective
+Evaluate an outcome registered on ClinicalTrials.gov. Determine the number of measures and classify the outcome as:
+-Single score or event
+-Single composite of multiple scores or events
+-Multiple individual measures
+
+## Instructions for classifying outcomes
+-A measure is a single attribute that is directly observable or assessed by a standardized device or test, or the name of a specialized scale or instrument that quantifies a complex or subjective attribute.
+
+Examples of directly observable attributes:
+-Mortality
+-Hospitalization
+-Undergoing mammography for breast cancer screening
+-Vomiting
+-Falling
+
+Examples of attributes assessed by standardized device or test:
+-Height
+-Weight
+-Systolic blood pressure
+-Heart rate
+-Hemoglobin
+-Serum creatinine
+-Blood glucose
+
+Examples of specialized scales or instruments:
+-Beck Depression Inventory (BDI-2), Beck 1996
+-Patient Health Questionnaire-9 (PHQ-9)
+
+## 1. “Single score or event” 
+-The outcome involves only one measure which is not defined based on two or more other measures.
+
+Examples:
+-Death
+-Heart attack
+-Length of hospital stay
+-Average daily steps
+-Systolic blood pressure
+-Score on the Beck Depression Inventory
+
+## 2. “Single composite”
+-The outcome involves only one measure which is defined based on two or more other measurements.
+-Multiple measures are combined into one single measure. 
+
+-This includes:
+a. The outcome is explicitly defined by more than one component events connected by the logic “Or” (i.e., the composite event occurs if any of the components occur), and the component events are defined by different measures; or 
+b. The outcome is defined by at least two criteria connected by the logic “And” (i.e., the composite event occurs only if all criteria are met), and those criteria represent different measures; 
+#### Examples
+-Progression-free survival
+-Death or cardiovascular event
+-Disease worsening or change in medication
+-Recurrence or study withdrawal
+
+## 3. Multiple individual measures
+-The outcome involves multiple measures and there is no indication that those measures are combined into one single composite outcome.
+
+Example: We will measure blood pressure, heart rate, and cholesterol levels.
+
+## 4. Additional considerations
+4.1 Subscales and components
+-If an overall scale and its subscales are analyzed separately, classify them as multiple individual measures.
+-If a scale cannot produce a single overall score or measures multiple attributes without combining them, it is considered multiple individual measures (e.g., Brief Pain Inventory (BPI), SF-36 health survey, SF-12 health survey).
+-The mention of subscales does not necessarily mean they are analyzed separately unless explicitly stated.
+
+4.2 Repeated measures
+-The same measure made at different time points (e.g., “Time frame” or “Classes” involves multiple time points) should not be counted as different measures.
+
+4.3 Composite outcomes
+-Ensure that components are explicitly combined into a single score or event.
+-If components of a composite outcome are analyzed separately, classify them as multiple individual measures.
+
+4.4 Biomarkers and Parameters
+-For terms that refer to a group of biomarkers, parameters, or events (e.g., lipids, vital signs, lung function parameters, cardiovascular or adverse events), classify as multiple individual measures unless explicitly stated they form a single score or composite.
+-For tests that can measure multiple biomarkers or parameters and no specific biomarker or parameter is mentioned, classify as multiple individual measures unless explicitly stated they form a single score or composite.
+
+ 
+4.5 Multiple tests or tools
+-If one attribute is measured by more than one test or tool, consider it “Multiple individual measures” unless stated they form a composite or that one confirms or serves as an alternative to the other.
+
+4.6 Cutoffs
+-Some outcomes include numeric cutoff(s) that define the outcome. Do not answer “Multiple individual measures” if all cutoffs are for the same score, even if more than one outcome is defined by the different cutoff(s).
+
+4.7 Study-specific non-standardized scales or instruments
+-If the tool or questionnaire is not a validated instrument commonly used in clinical and research settings and it measures multiple attributes or contains multiple questions, consider it “Multiple individual measures” unless stated an overall score will be calculated.
+
+4.8 Classes
+-Information in "Classes" can help identify the number of measures.
+-Categories listed in "Classes" are separated by semicolons. They are parallel categories.
+-Answer “Multiple individual measures” if the "Classes" lists different types of measures, including different attributes, scales, subscales or components of scales, tests.
+-Do not answer “Multiple individual measures” if the "Classes" lists different timepoints or the same measure taken at different timepoints.
+-Do not answer “Multiple individual measures” if the outcome is categorical (i.e., has more than two categories) and the "Classes" lists those categories.
+-Answer “Multiple individual measures” if the outcome is categorical or binary and the "Classes" lists categories that are not the same categories of that outcome.
+-Do not answer “Multiple individual measures” if the outcome is defined by a cutoff and the "Classes" lists different cutoffs.
+
+
+
+# Examples
+## Example 1
+Q: “Outcome Measure: Feasibility. Outcome Description: The primary aim/outcome of this pilot study is the feasibility of recruiting older veterans with PTSD to participate in a 12-week exercise program. The number of veterans recruited out of the total number contacted will be determined at baseline. Time Frame: Baseline”. What is the outcome composition?
+
+Rationale: The outcome measures the feasibility of recruiting older veterans with PTSD into a 12-week exercise program. This feasibility is quantified by "the number of veterans recruited out of the total number contacted" at baseline. The outcome involves a single measure: the recruitment of veterans. According to the guidelines, an outcome that involves only one measure is classified as a “Single score or event.”
+
+Outcome composition: “Single score or event”
+
+## Example 2
+Q: "Outcome measure: Improving measures of pulmonary function, Outcome description: Pre- to post-intervention change in forced expiratory volume at one second (FEV1), forced vital capacity (FVC), FEV1/FVC percent, and post-bronchodilator FEV1. Time frame: The participants will be followed for four months during each of two successive winter periods for a total of eight months of observation." What is the outcome composition?
+
+Rationale: The outcome involves assessing changes in pulmonary function parameters: Forced Expiratory Volume at one second (FEV1), Forced Vital Capacity (FVC), FEV1/FVC percent, Post-bronchodilator FEV1. There are four distinct measures being evaluated. The use of the plural word "measures" in "Improving measures of pulmonary function" indicates multiple measures. There is no indication that these measures are being combined into a single composite score or outcome.
+
+Outcome composition: "Multiple individual measures"
+
+
+## Example 3
+Q: “Outcome Measure: Subjects achieving low disease activity and disease remission. Outcome Description: Proportion of subjects achieving low disease activity (DAS28 ≤ 3.2) and disease remission (DAS28 < 2.6). The DAS28 is a measure of disease activity in RA based on Swollen and Tender Joint Counts (out of a total of 28), hsCRP and the Patient's Global Assessment of Disease Activity. A DAS28 score greater than 5.1 implies active disease, equal to or less than 3.2 low disease activity, and less than 2.6 remission. Time Frame: Over the entire duration of the study up to Week 260.” What is the outcome composition?
+
+Rationale: The outcome is based on the DAS28 (Disease Activity Score in 28 joints), which is a single, validated composite measure of disease activity in rheumatoid arthritis (RA). The DAS28 incorporates multiple components (e.g., Swollen Joint Count, Tender Joint Count, hsCRP, Patient's Global Assessment) to produce one overall score. The outcome describes subjects achieving different levels of disease activity (low disease activity and remission) defined by specific cutoffs of the same composite score (DAS28 ≤ 3.2 for low disease activity and DAS28 < 2.6 for remission). According to the guidelines, the presence of multiple cutoffs for the same measure (DAS28) does not classify it as multiple measures.
+
+Outcome composition: "Single score or event"
+
+
+## Example 4
+Q: “Outcome Measure: Change in Propositional Knowledge. Outcome Description: Knowledge measures will be assessed via True/False survey questions, and will address puberty, HIV, STIs, pregnancy, condoms, and alcohol & drugs. Time Frame: Month 2, Month 3, Month 4. ” What is the outcome composition?
+
+Rationale: The outcome measure is "Change in Propositional Knowledge." Knowledge is assessed via True/False survey questions. The survey addresses multiple topics: Puberty, HIV, STIs (Sexually Transmitted Infections), Pregnancy, Condoms, Alcohol & Drugs. Each topic likely has its own set of True/False questions. This suggests multiple measures are being taken across different subject areas. The text does not state that an overall score will be calculated from the individual topic scores.
+
+Outcome composition: "Multiple individual measures"
+
+
+## Example 5
+Q: “Outcome Measure: Time to nth (n= 1, 5, 10) partial seizure during the 12-week Treatment Period. Outcome Description: Number of days to first, fifth, and tenth seizure after baseline. Time Frame: During the 12-week Treatment Period”. What is the outcome composition?
+
+Rationale: The outcome measures the "Time to nth (n = 1, 5, 10) partial seizure" during a 12-week treatment period. There are three distinct measurements: Time to first seizure, Time to fifth seizure, Time to tenth seizure. Each measurement corresponds to a different event (first, fifth, tenth seizure), not the same measure repeated over time. There is no indication that these measures are being combined into a single composite outcome.
+
+Outcome composition: "Multiple individual measures"
+
+
+## Example 6
+Q: “Outcome measure: Caregiver Health Related Quality of Life. Outcome description: Caregiver Health Related Quality of Life (burden) will be assessed with the Caregiver Reactions Assessment (CRA- [Overall scale ranges from 1-5, better or worse outcome depending on subscale- Self Esteem Subscale higher score indicates better outcome, Disrupted Schedule subscale lower score indicates better outcome, Financial problems subscale lower score indicates better outcome, Lack of Social Support subscale lower score indicates better outcome, Health Problems subscale lower score indicates better outcome]). We will apply linear mixed model methodology to compare between arm differences.  Time Frame: Mean 4-6 weeks, 3 months, and 6 months after the intervention.” What is the outcome composition?
+
+Rationale: The outcome measures "Caregiver Health Related Quality of Life". It is assessed using the Caregiver Reactions Assessment (CRA). The CRA includes an overall scale ranging from 1 to 5. There are several subscales mentioned. The outcome description provides details for each subscale, indicating their individual importance. There is an overall score, but the better or worse outcome depends on subscale, suggesting that subscales are analyzed separately. The outcome description does not explicitly state that an overall CRA score will be the primary focus.
+
+Outcome composition: "Multiple individual measures"
+
+
+## Example 7
+Q: “Outcome Measure: Duration of response (DoR). Outcome Description: . Time Frame: From the date of first documented response (RECIST 1.1) until the first date of documented progression or death in the absence of disease progression, assessed up to 4 years.” What is the outcome composition?
+
+Rationale: The outcome measures the time from the first documented response (as per RECIST 1.1 criteria) until the first date of either documented disease progression or death in the absence of disease progression. The components include: 1) Start Point: Date of first documented response. 2) End Points: Date of documented disease progression; Date of death without disease progression. According to the guidelines, a single composite outcome involves multiple measures combined into one. Specifically: Condition 2a: If the outcome is explicitly defined by multiple component events connected by "Or" (i.e., the composite event occurs if any of the components occur), it qualifies as a composite. In this case, DoR ends either at disease progression or death, satisfying condition 2a. There is no indication that these two distinct events are analyzed as two separate outcomes.
+
+Outcome composition: "Single composite"
+
+## Example 8
+Q: “Outcome Measure: Time to sustained remission on minimal steroid therapy; Outcome Description: Time from randomization to the time of the subject's initial reduction of prednisone/prednisolone dose to <=10 mg/day and maintained a dose <=10 mg/day with no new or nonhealing (established) lesions for >=8 weeks and maintained the status until Week 60 will be assessed. Time Frame: Up to 60 weeks“. What is the outcome composition?
+
+Rationale: The outcome measures "Time to sustained remission on minimal steroid therapy". It involves multiple distinct measurements combined to define a single event. Specifically: Prednisone/Prednisolone Dose Reduction: The subject must reduce the dose to ≤10 mg/day; Lesion Status: No new or nonhealing (established) lesions for ≥8 weeksThese criteria are connected by the logical "And," meaning all conditions must be met for the outcome to be considered successful. Each criterion represents a different attribute: 1) Medication Dose, 2) Lesion Status. According to the Guidelines, specifically under “Single composite”, an outcome defined by multiple criteria connected by "And" and representing different attributes is classified as a single composite outcome. Furthermore, there is no indication that these components are analyzed separately.
+
+Outcome composition: "Single composite"
+
+## Example 9
+Q: “Outcome Measure: Percentage of Participants Who Are Seizure Free (Partial, All Epileptic Seizures) During the 12-week Treatment Period. Outcome Description: Participants were defined as seizure free, if they did not have missing diary days and no reported seizures during the Treatment Period. Time Frame: During the 12-week Treatment Period. Classes: All epileptic seizures; Partial onset seizures”. What is the outcome composition?
+
+Rationale: The defined outcome is “Percentage of Participants Who Are Seizure Free.” However, the accompanying "Classes" lists two different types of seizures: "All epileptic seizures" and "Partial onset seizures." According to the guidelines, if the outcome is categorized into different measures or attributes—here, different seizure types being measured separately—this constitutes multiple individual measures. The outcome is not described as a single composite nor is it a single measure. Instead, it appears that the study is assessing seizure freedom separately for each seizure category. 
+
+
+Outcome composition: “Multiple individual measures”
+
+# Task
+
+-Determine whether the outcome is a “Single score or event”, “Single composite”, or “Multiple individual measures”.
+-Apply the instructions for classifying outcomes.
+-Think step by step and provide the reasons for your answer as in the examples above. 
+-Respond as a clinician and scientist with medical knowledge, expertise in medical terminologies and knowledge of how to diagnose and measure the health conditions being assessed in this study.
+-Do not use information from other outcomes in the input to derive the answer for the current outcome. 
+
+## Format
+Return a table in proper JSON format with 'table' as the overall key, and 'columns' and 'rows' as other keys. The responses will be within lists, not dictionaries. No additional text will be added beyond the JSON.
+
+## Table structure
+The table will include each outcome in a row, organized as follows:
+Column 1: "Version"
+Column 2: "Identifier"
+Column 3: "Rationale, Outcome composition"
+Column 4: "Outcome composition"
+
+## Instructions for populating the table
+Headers: The first row will include the column headers above. 
+
+Column 1: Enter the contents of "Version" of the input table verbatim.
+Column 2: Enter the contents of "Identifier" of the input table verbatim.
+
+Column 3: Provide your chain of thoughts for determining the outcome composition.
+
+Column 4: Enter the "Outcome composition” based on your chain of thoughts. 
+
+Ensure all outcomes in the input are described. Treat each outcome independently. If there are more outcomes in the input than the number of rows in the table, revisit the table and add any missing outcomes.

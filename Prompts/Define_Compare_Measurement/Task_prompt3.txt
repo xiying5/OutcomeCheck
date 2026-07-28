@@ -1,0 +1,269 @@
+# Guidelines for Defining “Specific measurement” for a Single Composite
+
+# 1. Objectives
+-You previously determined that the outcome to be assessed is a composite outcome.
+-Your task now is to identify whether the outcome is a “Composite event” or a ”Multi-criteria event” .
+-You then extract each component, separated by semicolons, or answer "Not reported" if the text does not list the components. 
+
+# 2. Guidelines for defining "Composite type"
+## “Composite event”
+A “Composite event” is a single outcome defined by more than one component events connected by the logic “Or” (i.e., the composite event occurs if any of the component events occur).
+
+#### Examples
+-Progression-free survival
+-Death or cardiovascular event
+-Disease worsening or change in medication
+-Recurrence or study withdrawal
+
+## ”Multi-criteria event” 
+Defined by at least two criteria connected by the logic “And” (i.e., the event occurs only if all criteria are met)
+-Criteria are usually defined by different attributes or different measurements.
+-Participants defined by a criterion would not be simply a subset of the group defined by another criterion.
+
+
+
+
+
+# 3. Guidelines for defining "Components"
+
+## 3.1 Steps
+Extract each component, separating them with semicolons (;).
+If the text does not list the components, write “Not reported.”
+
+## 3.2 A component is an attribute that is directly observable or assessed by a standardized device or test, or the name of a specialized scale or instrument that quantifies a complex or subjective attribute.
+
+Examples of directly observable attributes:
+-Mortality
+-Hospitalization
+-Undergoing mammography for breast cancer screening
+-Vomiting
+-Falling
+
+Examples of attributes assessed by standardized device or test:
+-Height
+-Weight
+-Systolic blood pressure
+-Heart rate
+-Hemoglobin
+-Serum creatinine
+-Blood glucose
+
+Examples of specialized scales or instruments:
+-Beck Depression Inventory (BDI-2)
+
+
+## 3.3 Instructions for naming the "Component"
+### 3.3.1 The "Component" is the name of an attribute or indicator that is “Directly Observable” or assessed by a “Standardized Device or Test”: 
+
+a.Include the specific cause, type, source, or order if reported.
+
+Examples:
+-”systolic blood pressure” rather than “blood pressure”
+-”serum IgG” rather than “antibody”
+-”Hospitalization for depression” rather than “Hospitalization”
+-”Mortality due to heart attack” rather than “Mortality”
+-”Full term birth” rather than “Birth”
+-”Antipsychotic initiation” rather than “Antipsychotic use”
+-”Second pregnancy” rather than “pregnancy”
+
+b.Do not include the following information: 
+-Calculations and statistical concepts (e.g., "frequency," "number of," "percentage of", "rate," "area under the curve", "geometric mean ratio", "average")
+-Time (e.g., "time to," "duration of", "length of", "days of", "12-months")
+-Comparison (e.g., "percent change", "change in," "improvement," "reduction", "maximum," "minimum")
+-Operators and cutoffs (e.g., "at least 2% improvement", ">=8", "undetectable", "higher than", "lower than", "below the threshold")
+-Unnecessary or redundant words (e.g., don't add "status" after an event, "level" after a biomarker).
+-Data source or data collection method (e.g., electronic medical record, self-report, or chart review)
+-Description of the population in which the measurement is taken
+
+Examples:
+-“Stent placement” rather than "number of stents placed"
+-“Hospital discharge” rather than “time to discharge”
+-“Hospital stay” rather than “length of hospital stay”
+-“Pills taken” rather than “change in the pill count”
+-“Body weight” rather than "change in body weight"
+-“Height” rather than “rate of linear growth”
+-“Systolic blood pressure” rather than “Systolic blood pressure<140 mmHg”
+-“Viral load” rather than “Peak viral load”
+
+### 3.3.2  The "Component" is the name of a questionnaire or tool.
+
+a. For a validated tool or questionnaire used commonly in clinical and research settings:
+Determine the full name based on all text provided and by applying your knowledge of clinical trials.
+-Answer the full name
+-Include the acronym, if there is one.
+-Include the subscale name if a subscale rather than a full scale is used.
+-Include version number if reported.
+-Include author name and year if reported.
+-For modified versions, indicate the modification
+
+Examples:
+-Beck Depression Inventory (BDI-2), Beck 1996
+-Modified Ashworth Scale
+
+Do not include the following unless part of the formal name: 
+-The word "scale" or "subscale".
+-Numbers (e.g., number of questions, score cutoffs).
+-Details of the standardized tool (e.g., structure, content, scoring and interpretation, reliability, validity, administration).
+
+b.  If the tool or questionnaire is not a validated instrument commonly used in clinical and research settings
+Answer "Study-specific" followed by:
+ -Number of questions (e.g., "1-question", "5-questions")
+ -Question type (e.g., "Yes/No", "3-point Likert scale", "rating scale", "open-ended")
+ -Attributes measured by the questions, named following instructions in “###3.3.1”.
+
+### 3.3.3 Answer "Not reported" if components are not explicitly listed.
+-Do not infer the components based on the name of the composite outcome.
+
+
+
+# Examples
+
+
+
+## Example 1
+Q: “Outcome Measure: Number of Participants With the Composite Primary Outcome. Outcome Description: The primary outcome is a binary outcome defined by the occurrence or non-occurrence of any of the following vs. none of the following: fetal loss (spontaneous or termination), confirmed fetal CMV infection from amniocentesis, neonatal death before assessment of CMV infection can be made, or neonatal congenital CMV infection. Neonatal congenital CMV infection is diagnosed by urine or saliva collected by 3 weeks of age that is positive for CMV by culture (the intent will be to obtain in the first two days of life). In the event that Polymerase Chain Reaction (PCR) is positive but culture is negative, a repeat culture must be positive by 3 weeks of age. Time Frame: From randomization through 3 weeks of life”. What are the “Composite type” and "Components" of this outcome? 
+
+Rationale, Composite Type:
+The outcome, "Number of Participants With the Composite Primary Outcome," is defined by the occurrence or non-occurrence of any of the following events: Fetal loss (spontaneous or termination); Confirmed fetal CMV infection from amniocentesis; Neonatal death before assessment of CMV infection can be made; Neonatal congenital CMV infection.
+These component events are connected by the logical "Or," meaning the composite event occurs if any of the components occur.
+According to the guidelines, when multiple component events are connected by "Or," the outcome is classified as a Composite event.
+
+
+Rationale, Components:
+The components of the composite outcome, based on the description, are: fetal loss; fetal CMV infection; neonatal death; neonatal congenital CMV infection.
+These components are directly observable events and are extracted without including specific cutoffs or additional details, adhering to the guidelines.
+
+Composite type: Composite eventComponents: fetal loss; fetal CMV infection; neonatal death; neonatal congenital CMV infection
+
+
+## Example 2
+Q: “Outcome Measure: Duration of response (DoR). Outcome Description: . Time Frame: From the date of first documented response (RECIST 1.1.) until the first date of documented progression or death in the absence of disease progression, assessed up to 4 years.” What are the “Composite type” and "Components" of this outcome? 
+
+Rationale, Composite Type:
+The outcome, Duration of Response (DoR), measures the time from the first documented response until either progression or death occurs.
+The components progression and death are connected by the logical "Or", meaning the composite event occurs if either component occurs.
+According to the guidelines, when multiple component events are connected by "Or", the outcome is classified as a Composite event.
+
+
+Rationale, Components:
+The components of the composite outcome are explicitly listed as: Progression; Death.
+These components are directly observable events and are extracted without including any specific cutoffs or additional details, adhering to the guidelines.
+
+Composite type: Composite eventComponents: progression; death
+
+
+## Example 3
+Q: “Outcome Measure: Progression-Free Survival (PFS). Outcome Description: PFS was defined as the duration from the date of randomization to the date of progression, relapse from CR, or death, whichever occurred first. Time Frame: every 3 months after randomization“. What are the “Composite type” and "Components" of this outcome? 
+
+Rationale, Composite Type:
+The outcome, "Progression-Free Survival (PFS)," is defined as the duration from the date of randomization to the first occurrence of progression, relapse from complete response (CR), or death, whichever occurs first.
+These component events (progression, relapse from CR, death) are connected by the logical "Or," meaning the composite event occurs if any of the components occur.
+According to the guidelines, when multiple component events are connected by "Or," the outcome is classified as a Composite event.
+
+
+Rationale, Components:
+The components of the composite outcome, based on the description, are: progression; relapse from CR; death.
+These components are directly observable attributes and are extracted without including specific cutoffs or additional details, adhering to the guidelines.
+
+Composite type: Composite event
+Components: progression; relapse from CR; death
+
+
+## Example 4
+Q: “Outcome Measure: Time to sustained remission on minimal steroid therapy; Outcome Description: Time from randomization to the time of the subject's initial reduction of prednisone/prednisolone dose to <=10 mg/day and maintained a dose <=10 mg/day with no new or nonhealing (established) lesions for >=8 weeks and maintained the status until Week 60 will be assessed. Time Frame: Up to 60 weeks“. What are the “Composite type” and "Components" of this outcome? 
+
+Rationale, Composite Type:
+The outcome, "Time to sustained remission on minimal steroid therapy," is defined by multiple criteria that must all be met: Initial reduction of prednisone/prednisolone dose to ≤10 mg/day; Maintenance of prednisone/prednisolone dose ≤10 mg/day; No new or nonhealing (established) lesions for ≥8 weeks; Maintenance of the above status until Week 60.
+These criteria are connected by the logical "And," meaning the outcome occurs only if all components are satisfied.
+According to the guidelines, when multiple criteria are connected by "And," the outcome is classified as a Multi-criteria event.
+
+
+Rationale, Components:
+The components of the composite outcome, based on the description, are prednisone/prednisolone dose; new or nonhealing lesions.
+These components are directly observable attributes and are extracted without including specific cutoffs or additional details, adhering to the guidelines.
+
+Composite type: Multi-criteria event
+Components: prednisone/prednisolone dose; new or nonhealing lesions
+
+
+## Example 5
+Q: “Outcome Measure: Incidence of Febrile Neutropenia. Outcome Description: To compare the rate of febrile neutropenia (FN) among participants, at any risk level, registered at intervention Components versus usual care Components. Febrile neutropenia is defined by the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events version 4.0 (CTCAE v4.0) as an absolute neutrophil count (ANC) < 1000/µL and a single temperature of > 38.3°C (101°F) or a sustained temperature of ≥ 38°C (101°F) for more than one hour. Time Frame: Within 6 months post registration”. What are the “Composite type” and "Components" of this outcome? 
+
+Rationale, Composite Type:
+The outcome, febrile neutropenia, is defined by multiple criteria that must all be met:
+1) Absolute neutrophil count (ANC) < 1000/µL
+2) Temperature criteria: A single temperature > 38.3°C (101°F) OR A sustained temperature ≥ 38°C (101°F) for more than one hour.
+Since the occurrence of febrile neutropenia requires all these criteria to be satisfied (connected by "AND"), it is classified as a Multi-criteria event.
+
+
+Rationale, Components:
+The components of febrile neutropenia are all attributes assessed by standardized devices or tests: Absolute neutrophil count; Temperature.
+These are extracted without including specific cutoffs or additional details, as per the guidelines.
+
+Composite type: Multi-criteria eventComponents: absolute neutrophil count; temperature
+
+
+## Example 6
+Q: “Outcome Measure: Disease-Free Survival. Outcome Description: . Time Frame: up to 5 years after randomization“. What are the “Composite type” and "Components" of this outcome? 
+
+Rationale, Composite Type:
+The outcome is "Disease-Free Survival."
+Although the Outcome Description is not provided, Disease-Free Survival is a commonly recognized composite event in clinical research. It typically involves multiple components, such as the absence of disease recurrence and absence of death.
+Based on standard definitions, Disease-Free Survival qualifies as a Composite event because it encompasses multiple component events that can occur independently to define the overall outcome.
+
+
+Rationale, Components:
+Even though standard definitions typically include components like recurrence and death, the extraction should strictly adhere to the provided text.
+The specific components that constitute Disease-Free Survival in this context are not reported.
+Based on 3.3.3, we should not infer the components based on the name of the composite outcome.
+
+Composite type: Composite event
+Components: Not reported
+
+
+## Example 7
+Q: “Outcome Measure: Conversion rate of clinical status at Day 8. Outcome Description: Conversion rate of clinical status on days 8 (proportion of subjects who changed from "severe" to "moderate or mild", or the improvement from "scale 3 or 4" to "scale 5 or higher" on NIAID ordinal scale). Time Frame: 7 days“. What are the “Composite type” and "Components" of this outcome? 
+
+Rationale, Composite Type:
+The outcome, "Conversion rate of clinical status at Day 8," is defined by two distinct criteria: 1) Change from "severe" to "moderate or mild" clinical status; 2) Improvement from "scale 3 or 4" to "scale 5 or higher" on the NIAID ordinal scale.
+These criteria are connected by the logical "Or," meaning the composite event occurs if either of the component events occurs.
+According to the guidelines, when multiple component events are connected by "Or," the outcome is classified as a Composite event.
+
+
+Rationale, Components:
+The components of the composite outcome, based on the description, are: clinical status; NIAID ordinal scale.
+These components are directly observable attributes and are extracted without including comparison phrases, specific cutoffs or additional details, adhering to the guidelines.
+
+Composite type: Composite eventComponents: clinical status; NIAID ordinal scale
+
+
+# Task
+To name the “Composite type” and "Components", think step by step and provide the reasons for your answer as in the examples above. Follow the naming rule for components. 
+
+Do not use information from other outcomes in the input to derive the answer for the current outcome. 
+
+Respond as a clinician and scientist with medical knowledge, expertise in medical terminologies and knowledge of how to diagnose and measure the health conditions being assessed in this study.
+
+## Format
+Return a table in proper JSON format with 'table' as the overall key, and 'columns' and 'rows' as other keys. The responses will be within lists, not dictionaries. No additional text will be added beyond the JSON.
+
+## Table structure
+The table will include each outcome in a row, organized as follows:
+Column 1: "Version"
+Column 2: "Identifier"
+Column 3: "Rationale, Composite type"
+Column 4: "Composite type"
+Column 5: "Rationale, Components"
+Column 6: "Components"
+
+## Instructions for populating the table
+Headers: The first row will include the column headers above. 
+Column 1: Enter the contents of "Version" of the input table verbatim.
+Column 2: Enter the contents of "Identifier" of the input table verbatim.
+Column 3: Provide your chain of thoughts for determining the "Composite type".
+Column 4: Enter the "Composite type” based on your chain of thoughts. 
+Column 5: Provide your chain of thoughts for determining the "Components".
+Column 6: Enter the "Components” based on your chain of thoughts. 
+
+Ensure all outcomes are described. If there are more outcomes in the input than the number of rows in the table, revisit the table and add any missing outcomes.
+

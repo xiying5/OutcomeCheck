@@ -1,0 +1,166 @@
+# 1. Guidelines for defining “Aggregation method”
+-In clinical trials, outcomes are defined using multiple elements. 
+-“Aggregation method” is how results for individual participants are aggregated and compared between groups. Possible values: "Continuous", "Categorical", "Continuous; Categorical", or "Not reported". 
+-The outcomes you will assess were all predefined in clinical trials. 
+
+# 2. Common aggregation method: Answer the typical aggregation method for this outcome in clinical trials
+
+Answer "Continuous" if: the outcome is typically analyzed by mean/median.
+
+Answer "Categorical" if the outcome is typically analyzed by proportion/rate.
+
+# 3. Actual aggregation method: Look for explicit information in the text about the aggregation method in this clinical trial
+
+## 3a. "Continuous" indicators:
+### 1) "Outcome Measure", "Outcome Description", or "Time Frame" states explicitly that group means or medians are calculated or compared
+#### Examples
+-Difference in mean cognitive composite score 
+-Average change from baseline Pain Score
+-Mean fasting plasma glucose in both treatment groups 
+-Median overall survival
+
+### 2) "Outcome Measure", "Outcome Description", or "Time Frame"  mentions statistical methods appropriate for continuous outcomes
+#### Examples of statistical methods appropriate for continuous outcomes
+-Generalized linear mixed model (GLMM)
+-Linear mixed model (LMM)
+-Linear regression
+-t-test
+-Mann-Whitney U Test 
+-Wilcoxon Rank-Sum Test
+-Wilcoxon Signed-Rank Test
+-Kruskal-Wallis
+-Rank-sum
+-Mean difference
+-Standardized mean difference
+-Analysis of variance (ANOVA)
+-Repeated Measures (ANOVA)
+-Generalized Estimating Equations (GEE)
+-Multivariate Analysis of Variance (MANOVA)
+-Analysis of Covariance (ANCOVA)
+
+
+### 3) "Measure Type" is "Mean", "Median", "Least Squares Mean", "Geometric Mean", or "Geometric Least Squares Mean"
+### 4) "Measure of Dispersion/Precision" is "Standard Deviation", "Standard Error", "Full Range", "Inter-Quartile Range", or "Geometric Coefficient of Variation"
+### 5) "Unit of Measure" refers to a score, unit on a scale, or events
+### 6) "Measure Type" is "Number" and "Unit of Measure" refers to events (e.g., falls)
+### 7) "Outcome Analysis Parameter Type" contains "mean difference" or "difference in mean"
+### 8) “Statistical Analysis Method" mentions statistical methods appropriate for continuous outcomes (e.g., t test, ANOVA, linear regression, Wilcoxon test, or Kruskal-Wallis test)
+
+
+## 3b. "Categorical" indicators: 
+### 1) "Outcome Measure", "Outcome Description", or "Time Frame" explicitly states that the outcome is a group proportion or rate, or number of participants
+#### Examples
+-Mortality rate
+-Number of participants with a complete pathological response
+-Incidence of HIV infection
+-Cumulative incidence of new onset diabetes
+-Percentage of Participants With Improvement in the Functional Assessment of Cancer Therapy - Hepatobiliary (FACT-Hep) Total Score
+-Number of people with adverse events during the study
+-Proportions of participants improved, not improved, and worse
+-Likelihood of developing adverse events
+-Probability of participant dropout
+
+### 2) "Outcome Measure", "Outcome Description", or "Time Frame" mentions statistical terms or methods that estimate or compare group proportion/rate
+#### Examples of statistical terms or methods appropriate for estimating or comparing group proportions/rates
+-chi-squared
+-logistic regression
+-cox regression
+-cumulative event rate
+-incidence rate
+-cumulative incidence
+-competing risk analysis
+-relative risk
+-risk ratio
+-risk difference
+-odds ratio
+-hazard ratio
+-Exact Binomial Test
+-Fisher’s exact test
+-Mantel-Haenszel Test
+-McNemar's Test
+-log rank
+-Poisson Regression
+-Negative Binomial Regression
+
+### 3) "Measure Type" is "Count of Participants"
+### 4) "Measure Type" is "Number" and "Unit of Measure" refers to participants
+### 5) "Unit of Measure" refers to participants or percentage of participants
+### 6) "Outcome Analysis Parameter Type" mentions statistical terms appropriate for comparing group proportions/rates (e.g., "Odds ratio", "Cox proportional", or "hazard ratio")
+### 7) “Statistical Analysis Method" mentions statistical tests appropriate for comparing group proportions/rates
+
+## 3c. Answer "Continuous; Categorical” if both "Continuous" and "Categorical" indicators are mentioned.
+
+## 3d. Answer "Not reported” if there is no "Continuous" or "Categorical" indicator.
+
+
+## 3e. Additional notes
+### 1) Ignore statements about the average follow-up time (e.g., mean follow-up of 3 years).
+
+### 2) Proportions, percentages, rates, number of events calculated at the individual participant level rather than aggregated at the group level are not "Categorical" indicators (e.g., “Percentage of sessions completed by a participant”, "number of ICU admissions")
+
+### 3) If "Measure of Dispersion/Precision" is a confidence interval, "Actual aggregation method" can be "Continuous" or "Categorical"
+
+
+
+#4. Examples
+## Example 1
+Question: “Outcome Measure: Number of Participants With New Onset Diabetes After Transplant (NODAT) or Acute Rejection. Outcome Description: Composite endpoint of biopsy proven acute rejection and NODAT at 6 months post transplantation. NODAT will be defined as either FPG >7.0mmol/L OR symptoms of hyperglycemia and a random plasma glucose of >11.1 OR 2-h plasma glucose >11.1 during an oral glucose tolerance test(OGTT). Time frame: 6 months post transplant. Measure Type:. Measure of Dispersion/Precision: . Unit of Measure:. Analysis Statistical Method: . Outcome Analysis Parameter Type: .” What are the “Common aggregation method” and “Actual aggregation method” of this outcome?
+
+Common aggregation method: Categorical
+
+Rational, Actual aggregation method: The "Outcome Measure" explicitly states "Number of Participants With New Onset Diabetes After Transplant (NODAT) or Acute Rejection", which fits the indicator of measuring the number of participants experiencing an event. There are no mentions of means, medians, statistical methods appropriate for continuous data, or any continuous measure type.
+
+Actual aggregation method: Categorical
+
+## Example 2
+Question: “Outcome Measure: Overall Survival (OS). Outcome Description: Overall Survival (OS) is defined as the time from randomization to death from any cause. OS will be censored at the last date that the participant was known to be alive for participants who were alive at the time of analysis and for participants who were lost to follow-up before death was documented. Measure Type: Median. Measure of Dispersion/Precision: 95% Confidence Interval, Unit of Measure: Months. Analysis Statistical Method: log-rank. Outcome Analysis Parameter Type: Hazard Ratio (HR)”. What are the “Common aggregation method” and “Actual aggregation method” of this outcome?
+
+Common aggregation method: Continuous
+
+Rational, Actual aggregation method: The "Outcome Measure" and "Outcome Description" involve the calculation of median overall survival. "Median overall survival" is a continuous indicator. The "Measure Type" is "Median", indicating a continuous measure. The "Unit of Measure" is "Months", representing a continuous measurement of time. The "Analysis Statistical Method" mentions "log-rank", a statistical test appropriate for comparing group proportions/rates in survival analysis. The "Outcome Analysis Parameter Type" is "Hazard Ratio (HR)", a measure used to compare the hazard rates between two groups. Both continuous and categorical indicators are present in the outcome's description and analysis methods.
+
+Actual aggregation method: Continuous; Categorical
+
+## Example 3
+Question: “Outcome Measure: Intensity of care/ICU use: ICU admissions; Outcome Description: Secondary outcomes include measures of intensity of care, including utilization metrics: Number of ICU admissions during the patient's (index) hospital stay will be collected from the EHR using our automated and validated methods. Time Frame: Assessed for the period between randomization and 30 days following randomization. Measure Type: . Measure of Dispersion/Precision: . Unit of Measure: . Analysis Statistical Method: . Outcome Analysis Parameter Type: “. What are the “Common aggregation method” and “Actual aggregation method” of this outcome?
+
+Common aggregation method: Categorical
+
+Rationale, Actual aggregation method: The outcome measures the "Number of ICU admissions during the patient's (index) hospital stay," which is a count of events at the individual participant level. According to the Additional Notes (#2), "number of events calculated at the individual participant level rather than aggregated at the group level are not 'Categorical' indicators." There are no explicit "Continuous" indicators either. 
+
+Actual aggregation method: Not reported
+
+
+
+## Example 4
+Q: “Outcome Measure: Adverse Events. Outcome Description: Describe the main adverse events. Time Frame: At any time during the study period. Measure Type: Number. Measure of Dispersion/Precision:. Unit of Measure: Adverse events. Analysis Statistical Method: . Outcome Analysis Parameter Type: ”. What are the “Common aggregation method” and “Actual aggregation method” of this outcome?
+
+Common aggregation method: Categorical
+
+Rationale, Actual aggregation method: The outcome measures "Adverse events". The "Measure Type" is "Number". The "Unit of Measure" is "Adverse events", which refers to events. According to guideline 3a6, if the "Measure Type" is "Number" and the "Unit of Measure" refers to events (e.g., falls), it is a "Continuous" indicator. There are no explicit "Categorical" indicators in the provided text.
+
+Actual aggregation method: Continuous
+
+
+
+# Task
+To answer each question, think step by step. Define the "Common aggregation method" and "Actual aggregation method" of each outcome listed in the input and provide the reasons for your answer. Respond as an expert with knowledge of medicine, epidemiology, and statistics.
+
+## Format
+Return a table in proper JSON format with 'table' as the overall key, and 'columns' and 'rows' as other keys. The responses will be within lists, not dictionaries. No additional text will be added beyond the JSON.
+
+## Table structure
+The table will include each outcome in a row, organized as follows:
+Column 1: “Identifier”
+Column 2: "Common aggregation method"
+Column 3: "Rationale, Actual aggregation method"
+Column 4: “Actual aggregation method”
+
+## Instructions for populating the table
+Headers: The first row will include the column headers above.
+Column 1: Enter the contents of “Identifier” of the input table verbatim.
+Column 2: Enter the “Common aggregation method" based on your knowledge. 
+Column 3: Provide the chain of thoughts for determining "Actual aggregation method".
+Column 4: Enter the “Actual aggregation method" based on the chain of thoughts. 
+
+Ensure all outcomes are described. If there are more outcomes in the input than the number of rows in the table, revisit the table and add any missing outcomes.

@@ -1,0 +1,75 @@
+# Guidelines for matching the outcomes:
+
+## Introduction
+A registration is a record about a clinical trial. Registrations may be updated, resulting in multiple versions for a single trial. Outcomes in these versions can be the same or different, and they might have the same or different priorities.
+
+## Procedure
+1.Start with the prospective version:
+- Begin by examining the outcomes listed in the prospective version of the registration
+2.Match with the last version
+- Compare each outcome in the prospective version with all outcomes in the last version to find the best match.
+- The best match should prioritize the meaning of the text over the order of appearance. 
+
+## Matching criteria
+1.One-to-one matching
+- Each outcome in the prospective version can match at most one outcome in the last version, and vice versa.
+2.Utilize distance metrics
+- Use Jaccard distance and Cosine distance metrics to assist in matching.
+- Lower values of either the Jaccard distance or the Cosine distance suggest a higher likelihood that two outcomes correspond to each other.
+3.Consider outcome similarity
+- For corresponding outcomes, the “Outcome (prospective)” and “Outcome (last)” should  be the same or similar. - -Individual elements (i.e., Priority, Specific measurement, Metric, Aggregation method, Timepoint) might be the same or different. 
+
+
+
+# Examples
+Below are examples of corresponding outcomes in a prospective and last version:
+
+## Example 1
+Prospective version: {"Priority":"Secondary","Outcome Number":1,"Outcome Measure":"Intensity of care/ICU use: ICU admissions","Outcome Description":"Secondary outcomes include measures of intensity of care, including utilization metrics: Number of ICU admissions during the patient's (index) hospital stay will be collected from the EHR using our automated and validated methods.","Time Frame":"Assessed for the period between randomization and 30 days following randomization"}
+
+Last version: { "Priority": "Secondary", "Outcome Number": "1", "Outcome Measure": "Intensity of Care/ICU Use: ICU Admissions", "Outcome Description": "Secondary outcomes include measures of intensity of care, including utilization metrics: Number of ICU admissions during the patient's (index) hospital stay will be collected from the EHR.", "Time Frame": "Assessed for the period between randomization and 30 days following randomization", "Measure Type": "", "Measure of Dispersion/Precision": "", "Unit of Measure": "", "Analysis Statistical Method": "", "Outcome Analysis Parameter Type": ""}
+
+## Example 2
+Prospective version: {"Priority":"Secondary","Outcome Number": "5", "Outcome Measure":"Quality-adjusted survival", “Outcome Description”: “”, "Time Frame":””}
+
+Last version: { "Priority": "Secondary","Outcome Number": "5", "Outcome Measure": "Quality-adjusted Survival", "Outcome Description": "", "Time Frame": "From randomization to last follow-up. Maximum follow-up at time of primary outcome measure analysis was 8 years.", "Measure Type": "", "Measure of Dispersion/Precision": "", "Unit of Measure": "", "Analysis Statistical Method": "", "Outcome Analysis Parameter Type": ""}
+
+## Example 3
+Prospective version: {"Priority":"Primary","Outcome Number":1,"Outcome Measure":"Time to sustained remission on minimal steroid therapy","Time Frame":"Up to 60 weeks","Outcome Description":"Time from randomization to the time of the subject's initial reduction of prednisone/prednisolone dose to <=10 mg/day and maintained a dose <=10 mg/day with no new or nonhealing (established) lesions for >=8 weeks and maintained the status until Week 60 will be assessed"}
+
+Last version: { "Priority": "Primary", "Outcome Number":1,"Outcome Measure": "Number of Subjects Who Experienced Sustained Remission on Minimal Steroid Therapy", "Outcome Description": "Sustained remission = time from randomization to the time of the subject's initial reduction of prednisone/prednisolone dose to <=10 mg/day and maintenance of a dose <=10 mg/day with no new or nonhealing lesions for >=8 weeks and maintenance of the status until Week 60.", "Time Frame": "Baseline up to approximately 60 weeks", "Measure Type": "Number", "Measure of Dispersion/Precision": "N/A", "Unit of Measure": "participants", "Analysis Statistical Method": "", "Outcome Analysis Parameter Type": ""}.
+
+## Example 4
+Prospective version: {"Priority": "Secondary"; "Outcome Number": "12"; "Outcome Measure": "Glycemic variability calculated by Mean amplitude of glycemic excursions (MAGE)"; "Outcome Description": ""; "Time Frame": "During hospitalization (up to 10 days)"}
+
+Last version: { "Priority": "Secondary"; "Outcome Number": "5"; "Outcome Measure": "Glycemic Variability Calculated by Mean Amplitude of Glycemic Excursions (MAGE) While Hospitalized"; "Outcome Description": "Mean amplitude of glycemic excursions (MAGE), together with mean and standard deviation, is the parameter for assessing glycemic variability and is calculated based on the arithmetic mean of differences between consecutive peaks and nadirs of differences greater than one standard deviation of mean glycemia. It is designed to assess major glucose swings and exclude minor ones."; "Time Frame": "During hospitalization (up to 10 days)"; "Measure Type": "Mean"; "Measure of Dispersion/Precision": "Standard Deviation"; "Unit of Measure": 
+"mg/dL"; "Outcome Analysis Parameter Type": ""; "Analysis Statistical Method": ""}
+
+# Task
+We are scientists with expertise in evaluating clinical trial outcomes. Our goal is to match outcomes from the last version to those in the prospective version of the trial registration.
+## Steps for matching
+1.Reflect on the matching rules. 
+2.Make a comprehensive table that includes 
+- All outcomes listed in the prospective version of the trial registration 
+- All outcomes listed in the last version that were not included in the prospective version registration. 
+The table must exhaustively list all outcomes in either of the two versions. 
+Return a table in proper JSON format with 'table' as the overall key, and 'columns' and 'rows' as other keys. The responses will be within lists, not dictionaries. No additional text will be added beyond the JSON.
+## Table structure
+The table will contain each unique outcome in a row, organized as follows:
+	•	Column 1: "Identifier (prospective)"
+	•	Column 2: "Outcome (prospective)"
+	•	Column 3: "Identifier (last)"
+	•	Column 4: "Outcome (last)"
+
+## Instructions for populating the table
+Column 1: Enter the "Identifier" for outcomes in the prospective version.
+Column 2: Enter the "Outcome measure" for outcomes in the prospective version.
+Column 3: Enter the "Identifier" for outcomes in the last version.
+Column 4: Enter the "Outcome measure" for outcomes in the last version.
+
+If an outcome in the last version corresponds to an outcome in the prospective version, place it in the same row as the corresponding outcome in the prospective version. 
+
+If an outcome exists in the prospective version but has no corresponding outcome in the last version, enter "[Missing outcome]" in columns 3 and 4 for that row.
+
+If an outcome exists in the last version but has no corresponding outcome in the prospective version, add it in a new row below the prospective outcomes, and enter "[Added outcome]" in columns 1 and 2 for that row.
+

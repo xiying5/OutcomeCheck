@@ -1,0 +1,189 @@
+# Guidelines for identifying and defining Timepoint:
+-In clinical trials, outcomes are defined using multiple elements. "Timepoint" is one of those elements.
+-You will assess the “Timepoint” of outcomes measured in clinical trials.
+
+## Definition
+"Timepoint”: The specific time(s) when an outcome will be assessed, including:
+-A specific time (e.g., 1 week, 30 minutes post-dose); or 
+-Duration of assessment of the participant (e.g., from admission to discharge, up to 1 week); or 
+-Frequency of measurement (e.g., every 6 months).
+
+## Steps
+-Identify and evaluate time-relevant information in two sources for a clinical trial, the “prospective version” and the “last version”.
+-Compare the “Timepoint” for each outcome to determine whether it changed between the first and second source.
+
+## Identify time-relevant information for each outcome in each source
+-Within each source determine the “Timepoint” using time-relevant information from "Time Frame", "Outcome Measure", "Outcome Description", and “Classes”.
+-Differences within sources: "Timepoint” can be different from what is mentioned explicitly in "Time Frame".
+-Not reported: Answer “Not reported” if no time-relevant information is available in the "Time Frame", "Outcome Measure", "Outcome Description", or "Classes".
+-Ignore time 0 (“Baseline”):
+a. Treat phrases indicating the start of the trial (“baseline”, “randomization”, “screening”, “enrollment”, “treatment initiation”, “the beginning”, “T0”) as synonyms of “0”.
+b. Clinical trials sometimes imply that outcomes will be assessed at baseline using words such as “change”, “reduction”, “decrease”, “improvement”, “maintain”, “increase”, “enlargement”, “loss”, “gain”, “worsening”, or “growth”. 
+c. Intervals might imply that outcomes were measured at baseline. Assume phrases like "within" and "up to" indicate the interval begins at baseline unless the text states that monitoring begins after baseline.
+
+### Examples of time-relevant information in “Time Frame”
+-“Timepoint” is “post-intervention at months 3, 6, 12, 18, 24, 30, 36, 42, 48” for “Outcome Measure: Oswestry Disability Index, Outcome Description:, Time Frame:baseline & post-intervention at months 3, 6, 12, 18, 24, 30, 36, 42, 48”.
+
+### Examples of time-relevant information in “Outcome Measure”
+-“Timepoint” is “5 years” for “Outcome Measure: 5-year disease free survival, Outcome Description:, Time Frame:.”
+-“Timepoint” is “12 weeks” for “Outcome Measure: Rate of depressive symptoms as per Hospital Anxiety and Depression Scale (HADS) at 12 weeks on patient and family caregiver reported outcomes, Outcome Description:, Time Frame: 12 weeks”.
+
+### Examples of time-relevant information in “Outcome Description”
+-“Timepoint” is “16 weeks” for “Outcome Measure: Carotid Artery Intima Media Thickness (CIMT), Outcome Description: 9-13-MHZ B-mode Carotid Ultrasound will be used to assess intima media thickness at baseline and following 16 weeks of participation in an intensive behavioral weight loss intervention., Time Frame: 16 weeks”.
+
+### Examples of time-relevant information in “Classes”
+-“Timepoint” is “week 4, week 12, week 20, week 28” for “Outcome Measure: Adjusted Change From Baseline in Body Weight Through Week 28, Outcome Description:., Time Frame: Baseline (Day 1) up to Week 28, Class: week 4, week 12, week 20, week 28”.
+
+
+## Guidelines for Comparing Timepoints 
+Compare the start time point (except for baseline), end time point, and any intermediate time points between the two versions to identify any additions, deletions, or modifications:
+1. More complete: "Timepoint" is "Not reported" in the prospective version but is reported validly in the last version.
+
+2. Less complete: "Timepoint" is valid in the prospective version but is "Not reported" in the last version.
+
+3. Answer “Change in definition” when:
+-Times do not match
+-A time (excluding baseline) is added or deleted in the last version compared with the prospective version.
+-Additional information in either version meaningfully changes the timepoints or adds new information about the timing of assessments.
+
+4. No change: "Timepoint" is semantically the same in both versions, even if there are minor differences in wording or specificity that don't alter the meaning.
+
+
+# Examples
+## Example 1
+Prospective version: {"Priority":"Secondary","Outcome Number":1,"Outcome Measure":"Intensity of care/ICU use: ICU admissions","Outcome Description":"Secondary outcomes include measures of intensity of care, including utilization metrics: Number of ICU admissions during the patient's (index) hospital stay will be collected from the EHR using our automated and validated methods.","Time Frame":"Assessed for the period between randomization and 30 days following randomization","Classes":""}
+
+Last version: { "Priority": "Secondary", "Outcome Number": "1", "Outcome Measure": "Intensity of Care/ICU Use: ICU Admissions", "Outcome Description": "Secondary outcomes include measures of intensity of care, including utilization metrics: Number of ICU admissions during the patient's (index) hospital stay will be collected from the EHR.", "Time Frame": "Assessed for the period between randomization and 30 days following randomization"}
+
+Q: What is the change status of the “Timepoint” between the above two versions?
+
+Rationale, Timepoint:
+Time-related information appears only in the "Time Frame" of both versions, which is identical.
+
+Changes (Timepoint): No change
+
+## Example 2
+Prospective version: {"Priority":"Primary","Outcome Number": "1", "Outcome Measure": "Large for gestational age (LGA) infant", "Outcome Description": "birth weight greater than the 90th percentile for gestational age", "Time Frame": "at birth (approximately 40 weeks' gestation)”}
+
+Last version: {"Priority":"Primary", "Outcome Number": "1", "Outcome Measure": "Large for Gestational Age (LGA) Infant", "Outcome Description": "birth weight equal to or greater than the 90th percentile for gestational age and sex", "Time Frame": "at time of delivery","Classes":""}
+
+Q: What is the change status of the “Timepoint” between the above two versions?
+
+Rationale, Timepoint:
+Time-related information appears only in the "Time Frame" of both versions, which both refer to the same point: the moment of birth or delivery. The phrases "at birth" and "at time of delivery" are semantically equivalent in this context. Although the prospective version specifies "approximately 40 weeks' gestation,"  this does not significantly alter the measured timepoint. The removal of this detail does not constitute a significant change in the timepoint definition. 
+
+Changes (Timepoint): No change
+
+## Example 3
+Prospective version: {"Priority":"Primary","Outcome Number":1,"Outcome Measure":"Time to sustained remission on minimal steroid therapy","Outcome Description":"Time from randomization to the time of the subject's initial reduction of prednisone/prednisolone dose to <=10 mg/day and maintained a dose <=10 mg/day with no new or nonhealing (established) lesions for >=8 weeks and maintained the status until Week 60 will be assessed", Time Frame":"Up to 60 weeks"}
+
+Last version: { "Priority": "Primary", "Outcome Number":1,"Outcome Measure": "Number of Subjects Who Experienced Sustained Remission on Minimal Steroid Therapy", "Outcome Description": "Sustained remission = time from randomization to the time of the subject's initial reduction of prednisone/prednisolone dose to <=10 mg/day and maintenance of a dose <=10 mg/day with no new or nonhealing lesions for >=8 weeks and maintenance of the status until Week 60.", "Time Frame": "Baseline up to approximately 60 weeks","Classes":""}.
+
+Q: What is the change status of the “Timepoint” between the above two versions?
+
+Rationale, Timepoint:
+Time-related information appears in the "Outcome Description" and "Time Frame" of both versions. Prospective version: The “Outcome Description” mentions “time from randomization…until Week 60” and the “Time Frame” mentions “Up to 60 weeks”. Randomization can be assumed to be equivalent to baseline. Therefore, the “Timepoint” for the prospective version is “60 weeks”. Last version: “Outcome description” mentions “time from randomization…until Week 60” and time frame mentions "Baseline up to approximately 60 weeks". The slight wording difference between "60 weeks" and "approximately 60 weeks" does not change the meaning significantly. Therefore, the “Timepoint” for the last version is “60 weeks”.
+
+Changes (Timepoint): No change
+
+## Example 4
+Prospective version: {"Priority":"Secondary","Outcome Number": "5", "Outcome Measure":"Quality-adjusted survival", “Outcome Description”: “”, "Time Frame":”Up to 5 years”.}
+
+Last version: { "Priority": "Secondary","Outcome Number": "5", "Outcome Measure": "Quality-adjusted Survival", "Outcome Description": "", "Time Frame": "From randomization to last follow-up. Maximum follow-up at time of primary outcome measure analysis was 5 years." , Classes: “Year 1, Year 3, Year 5”}
+
+Q: What is the change status of the “Timepoint” between the above two versions?
+
+Rationale, Timepoint:
+Time-related information is provided in “Time frame”in the prospective version. Therefore, the “Timepoint” for this version is "5 years". The last version mentions the maximum follow-up length in the Time Frame field, being “ 5 years”, and the “Classes” lists the specific timepoints being “Year 1, Year 3, Year 5”. The last version contains two additional timepoints compared to the prospective version.
+
+Changes (Timepoint): Change in Definition
+
+## Example 5
+Prospective version: {"Priority":"Secondary","Outcome Number": "5", "Outcome Measure":"Quality-adjusted survival", “Outcome Description”: “”, "Time Frame":”From randomization to last follow-up. Maximum follow-up at time of primary outcome measure analysis was 8 years.”,"Classes":""}
+
+Last version: { "Priority": "Secondary","Outcome Number": "5", "Outcome Measure": "Quality-adjusted Survival", "Outcome Description": "", "Time Frame": ""}
+
+Q: What is the change status of the “Timepoint” between the above two versions?
+
+Rationale, Timepoint:
+The prospective version provides a clear “Timepoint” in the Time Frame field, being “8 years”. There is no time-related information provided in any field in the last version. The “Timepoint” for this version is "Not reported". 
+
+Changes (Timepoint): Less complete
+
+## Example 6
+Prospective version: {"Priority":"Secondary","Outcome Number": "2", "Outcome Measure":"OS", “Outcome Description”: “”, "Time Frame":”OS will be calculated as 1+ the number of days from randomization to death due to any cause.”}
+
+Last version: { "Priority": "Secondary","Outcome Number": "3", "Outcome Measure": "Overall Survival (OS)", "Outcome Description": "OS was calculated as 1+ the number of days from randomization to death due to any cause. Patients without a documented date of death were censored on the date the patient was last known to be alive.", "Time Frame": "Cycle 1 Day 1 to date of death, assessed up to 3 years","Classes":""}
+
+Q: What is the change status of the “Timepoint” between the above two versions?
+
+Rationale, Timepoint:
+Quantitative time-related information is not provided the prospective version. Time-related information appears in the "Outcome Description" and "Time Frame" of the last version. Start point: outcome description mentions randomization and time frame mentions Cycle 1 Day 1 (which can be assumed to be equivalent to randomization). End point: Death due to any cause, with a maximum assessment period of up to 3 years. The “Timepoint” for the last version is “3 years”. 
+
+Changes (Timepoint): More complete
+
+## Example 7
+Prospective version: {"Priority":"Secondary,"Outcome Number": "1", "Outcome Measure": "Change in knee function in overweight and obese adults with knee Osteoarthritis compared to an attention-control group measured by WOMAC Function Scale.", "Outcome Description": "", "Time Frame": "0 & 18 months”}
+
+Last version: {"Priority":"Secondary", "Outcome Number": "1", "Outcome Measure": "Function", "Outcome Description": "To determine whether a pragmatic, community-based, 18-month, diet-induced weight-loss and exercise intervention improves WOMAC self-reported function in overweight and obese adults with knee OA compared to an attention control group - test questions are scored on a scale of 0-4, which correspond to: None (0), Mild (1), Moderate (2), Severe (3), and Extreme (4) - Higher scores on the WOMAC indicate more pain, stiffness, and functional limitations. The WOMAC function score is a total of seventeen items for function (total score range 0-68). Measure Description: Range, 0 to 68 (0, no difficulty; 68, extreme).", "Time Frame": "18 months","Classes":""}
+
+Q: What is the change status of the “Timepoint” between the above two versions?
+
+Rationale, Timepoint:
+Time-related information only appears in the "Time Frame" of both versions. Analyzing the timepoints: Prospective version: Two timepoints: baseline (0 months) and 18 months; Last version: One explicit timepoint: 18 months; The Outcome Description mentions an 18-month intervention. “0 month” in the prospective version can be ignored. Therefore, the timepoint information has not changed between the two versions.
+
+Changes (Timepoint): No change
+
+## Example 8
+Prospective version: {"Priority":"Primary”,"Outcome Number": "1", "Outcome Measure": "Change in substance use rates from baseline, as measured by the Timeline Followback and Urinalysis.", "Outcome Description": "Self-reported days of alcohol use as measured by the Timeline Followback, and urinalysis confirmed self-reported days of use for cocaine, marijuana, opiates, sedatives, and hallucinogens over time as measured by the Timeline Followback and Urinalysis.", "Time Frame": "6 weeks, 3 months, 6 months”}
+
+Last version: {"Priority":"Secondary", "Outcome Number": "1", "Outcome Measure": "Substance Use, as Measured by the Timeline Followback and Confirmed by Urinalysis", "Outcome Description": "Days substance use as measured by the Timeline Followback and confirmed by urinalysis. Results are presented for one research site only because of counselor randomization issues at the second site (i.e., the randomization was extremely unbalanced with 7 TAU counselors and 1 TK counselor).", "Time Frame": "3 months","Classes":""}
+
+Q: What is the change status of the “Timepoint” between the above two versions?
+
+Rationale, Timepoint:
+The "Time Frame" of the prospective version states "6 weeks, 3 months, 6 months”. Additionally, the “Outcome Measure” states "Change in substance use rates from baseline”, indicating that the outcome is also measured at the baseline. In the last version,  the "Time Frame" states "3 months". No time-relevant information is mentioned in the other parts of the text. Therefore, the “Timepoints” changes from “6 weeks, 3 months, 6 months” to “3 months”. The number of timepoints has changed (reduced from three to one), and two of the original timepoints (6 weeks and 6 months) have been removed.
+
+Changes (Timepoint): Change in definition
+
+
+## Example 9
+Prospective version: {"Priority":"Secondary","Outcome Number": "7", "Outcome Measure": "Brivaracetam plasma concentration", "Outcome Description": "Blood samples will be collected at indicated time points to determine the brivaracetam plasma concentration.", "Time Frame": "Plasma samples will be collected in week 2, 4, 8, 12, 14.”}
+
+Last version: {"Priority":"Secondary","Outcome Number": "9", "Outcome Measure": "Brivaracetam Plasma Concentration", "Outcome Description": "Blood samples were collected at indicated time points to determine the brivaracetam plasma concentration. Participants of arm 'BRV 200 mg/day' received BRV 200 mg/day until Week 12 only and 150 mg/day during the Transition Period at Week 14. Therefore, the data is reported according to the dosage information at specified time point. As per planned analysis, one blood sample was collected for BRV plasma levels during each dosing interval between 0 to 4 hours, 4 to 8 hours, and 8 to 12 hours postdose.", "Time Frame": "Plasma samples were collected at >0-4hours, >4-8hours, >8hours in weeks 2, 4, 8, 12, and 14","Classes":""}
+
+Q: What is the change status of the “Timepoint” between the above two versions?
+
+Rationale, Timepoint:
+For the prospective version, time-related information only appears in the "Time Frame”: week 2, 4, 8, 12, 14. In the last version: “Outcome Description” mentions additional detail about sample collection timing within each dosing interval (“0 to 4 hours, 4 to 8 hours, and 8 to 12 hours postdose”, and “Time Frame” mentions “>0-4hours, >4-8hours, >8hours in weeks 2, 4, 8, 12, and 14". Both versions specify the same weeks for sample collection: 2, 4, 8, 12, and 14. The last version adds specificity of timing within the day (>0-4hours, >4-8hours, >8hours).
+
+Changes (Timepoint): Change in definition
+
+# Task
+## Introduction
+We are scientists with expertise in evaluating clinical trial outcomes, and training in epidemiology and biostatistics. Our goal is to define and compare the “Timepoints” of a clinical trial outcome. 
+
+## Instructions
+1.Locate time information: Locate all instances of time-related information in both the prospective and last versions. 
+2.Determine timepoints: Evaluate each instance to determine the specific timepoint or classify it as “Not reported”. 
+3.Compare timepoints: Categorize each timepoint comparison as one of the following: 
+“No change”
+“More complete”
+“Less complete”
+“Change in definition” 
+
+## Table format
+Return a table in proper JSON format with 'table' as the overall key, and 'columns' and 'rows' as other keys. The responses will be within lists, not dictionaries. No additional text will be added beyond the JSON.
+The table will include each outcome in a row, organized as follows:
+Column 1: “Identifier (prospective)”
+Column 2: "Rationale, Timepoint"
+Column 3: “Changes (Timepoint)”
+
+## Instructions for populating the table
+Headers: The first row will include the column headers above. 
+Column 1: Enter the contents of “Identifier (prospective)” of the input table verbatim. 
+Column 2: Provide the chain of thoughts for determining whether the "Timepoint" is “No change”, “More complete”, “Less complete”, or “Change in definition”. 
+Column 3: Enter “No change”, “More complete”, “Less complete”, or “Change in definition” based on the chain of thoughts. 
+Ensure all outcomes are described. If there are more outcomes in the input than the number of rows in the table, we will revisit the table and add any missing outcomes.
+ 
+

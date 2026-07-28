@@ -1,0 +1,313 @@
+# Guidelines for identifying and defining “Cutoffs”
+-In clinical trials, outcomes are defined for individual participants using multiple elements. 
+-"Cutoffs" is one of those elements.
+-The outcomes you will assess were all predefined in clinical trials. 
+
+## 1. Definition of "Cutoffs": The specific numeric cutoff(s) or categories that define an outcome, or different levels of an outcome, at the individual participant level.
+
+### How to Locate Cutoffs
+1. Pay attention to any numerical values, thresholds, or categories mentioned.
+2. Identify words and phrases such as "defined as," "categorized by," "threshold of," "greater than," "less than," "increase," "decrease," "reduction," "improvement," "score of," “at least,” “or higher,” etc.
+3. Spot any numbers accompanied by operational signs (e.g., =, >, <, ≥, ≤) and units of measurement (e.g., mg/dL, mmHg).
+4. Be attentive to mentions of standardized instruments or criteria (e.g., RECIST, NYHA classification) that might come with cutoffs.
+5. Understand the clinical context to determine if certain phrases imply a cutoff, even if not explicitly stated.
+6.Cutoffs might be listed in the “Classes”.
+
+## 2. Steps
+1. Identify all cutoffs mentioned.
+2. Determine whether “Attribute categorized” and “Cutoffs” are applicable. 
+-Consider whether each cutoff defines outcomes for individual participants.
+-Ignore descriptions of how to interpret values on scales if those descriptions are not integral to the outcome definition.
+-Ignore cutoffs or criteria used to define the group of participants who will be included in the analysis.
+3. If applicable, name the “Attribute categorized” and the “Cutoffs”.
+4. Determine whether cutoffs define one or multiple outcomes.
+
+## 3. Answer "Not applicable" for "attribute categorized" and "cutoffs" if:
+### 3.1. Participants are dichotomized into those with zero events (=0) or one or more events (“>=1”).
+
+Examples:
+-Number of people with adverse events
+-Participants with injuries
+
+### 3.2. The outcome is binary and the occurrence of the event is not defined by categorizing a continuous or ordinal scale or by further categorizing a categorical variable.
+
+Examples of binary events:
+-Death
+-Study dropout
+-Treatment discontinuation
+
+Examples of events defined by categorizing a scale or categorical variable:
+-“Clinical Global Impression of Change = Very much improved or much improved”
+-”Tumor overall response defined as complete response (CR) or partial response (PR)”
+
+### 3.3. The outcome is a binary event and the occurrence of the event might include categorizing a continuous or ordinal scale, or further categorizing a categorical variable, but no scale is mentioned.
+
+Examples:
+-”New onset diabetes”
+-“Hypoglycemic event”
+-”Hypertension diagnosis”
+
+### 3.4. The only cutoffs reported are used to define the group of participants who will be included in the analysis.
+
+Examples: 
+-“Percent change from baseline in target-to-background ratio of an index vessel by FDG-PET/CT in subjects with baseline Lp(a)>=50mg/dL and Low-density lipoprotein-cholesterol>=100mg/dL.”
+-”Initial TQ administration will determine eligibility (score greater than or equal to 40) for the TRTT.”
+-”Time to all-cause mortality in patients with LVEF <50%.”
+
+### 3.5. The cutoffs do not define the occurrence of an event and they do not indicate that participants will be categorized for analysis (e.g., cutoffs explain only how to interpret scores).
+
+Examples:
+-”Change in body temperature. Measure of heat associated with the metabolism of the body. Normal range is between 36.5-37.5 °C (97.7-99.5 °F).”
+-”Pain Interference Score. PIS scores range from 0 to 10 where 0–3 represents ‘low interference’, 4–6 ‘Moderate interference,’ and 7–10 ‘High interference.’”
+
+## 4. Name the “attribute categorized” and the “cutoffs”, if applicable. Applicable outcomes are those defined for each individual participant by:
+-Categorizing a continuous or ordinal scale using cutoff(s),
+-Further categorizing a categorical variable by collapsing some of the categories,
+-Time to reach a specific threshold, or
+-Time during a specific threshold or range.
+
+## 5. Name the “attribute categorized” by the cutoff. 
+Answer the questionnaire/instrument, physical property, biological variable, count of recurrent events, or length of time.
+
+### 5.1 Avoid unnecessary or redundant words (e.g., don't add "status" after an event, don’t add “level” after a biomarker).
+
+### 5.2 For naming standardized tools, questionnaires, tests, and instruments:
+-Determine the full name based on all text provided.
+-Answer both the full name and acronym (e.g., "Beck Depression Inventory (BDI)").
+-Answer the subscale name if a subscale rather than a full scale is used.
+-Include version numbers (e.g., "BDI-II").
+-Include author name and year (e.g., "Beck 2014") if reported.
+-For modified versions, indicate the modification (e.g., "Modified Ashworth Scale").
+-Do not add "scale" or "subscale" unless it is part of the formal name.
+-Do not add numbers (e.g., number of questions, score cutoffs) unless part of the formal name.
+-Do not include details of the standardized tool (e.g., structure, content, scoring and interpretation, reliability, validity, administration) unless part of the formal name.
+
+Examples: 
+-For “Severe anxiety (HAM-A score=31–56)” answer “Hamilton Anxiety Rating Scale (HAM-A)”
+-For “Proportion of subjects with plasma HIV-1 ribonucleic acid (RNA) <50 copies/milliliter (c/mL) at Week 48” answer “Plasma HIV-1 ribonucleic acid (RNA)”
+-For “Incidence of Grade 3 or Higher Adverse Events as Assessed by National Cancer Institute Common Terminology Criteria for Adverse Events Version 4.0” answer “National Cancer Institute Common Terminology Criteria for Adverse Events Version 4.0”
+-For “Mild pain defined by Brief Pain Inventory pain severity score” answer  “Brief Pain Inventory - Pain Severity”
+
+### 5.3 For outcomes incorporating different attributes with distinct cutoffs, include all attributes in your answer, separated by semicolons.
+
+Examples:
+-For “Composite endpoint of AP and total bilirubin: AP < 1.67 × ULN, ≥ 15% decrease in AP, and Total bilirubin ≤ ULN.” answer “Alkaline Phosphatase (AP); Total bilirubin”.
+
+## 6. Rules for naming the “cutoffs”:
+### 6.1 For binary categories: Name a single cutoff, range, or category defining the outcome (e.g., “<2”, “140-160”, “full response”).
+
+Examples:
+-For “Severe anxiety (HAM-A score=31–56)” answer “31-56”.
+-For “endoscopic subscale (ESS) =0” answer “=0”.
+-For “Incidence of Grade 3 or Higher Adverse Events as Assessed by National Cancer Institute Common Terminology Criteria for Adverse Events Version 4.0” answer “ ≥ Grade 3”
+
+### 6.2 For more than two cutoffs or categories of the same attribute: list all cutoffs or categories used in the analyses, separated by commas.
+
+Example: For “Proportion of Participants Categorized by Glycemic Control Levels of < 6.0%, 6.0% to < 7.0%, and ≥ 7.0% HbA1c” answer “< 6.0%, 6.0% to < 7.0%, ≥ 7.0%”.
+
+### 6.3 For categories that are collapsed into one, connect them with "or".
+
+Example: For “Tumor response defined as complete response (CR) or partial response (PR)” answer “complete response (CR) or partial response (PR)”.
+
+### 6.4 For binary events defined by scales, answer "Not reported" if an exact cutoff is not provided (e.g., “clinically meaningful difference” or “undetectable level” without a numerical definition).
+
+Examples: 
+-Undetectable viral load
+-Proportion of people with decrease from baseline in weight
+-High systolic pressure
+-Clinical response defined by Clinical Pulmonary Infection Score
+-Tumor response defined by Response Evaluation Criteria in Solid Tumors (RECIST) criteria
+
+### 6.5 Include the unit of measurement when available (e.g., mmHg).
+
+Examples: For “ANC less than 500/mm^3” answer “<500/mm^3”.
+
+### 6.6 Always include the operational sign before a cutoff (e.g., =, >, <, ≥, ≤).
+
+Example: For “Number of participants with Controlled Blood Pressure (<140/90 mm Hg)” answer “<140/90 mm Hg”.
+
+### 6.7 Include direction of change (e.g., increase, decrease).
+
+Examples: 
+-For “Time to 50% Reduction in UPCR” answer “50% Reduction”.
+-For “Proportion of subjects who gained from baseline ≥ 5 letters in the study eye” answer “≥ 5 letters gain”.
+
+### 6.8 For outcomes incorporating different attributes with distinct cutoffs, include cutoffs in your answer, separated by semicolons.
+
+Examples:
+-For “Normal serum potassium between 3.5 and 5.0 mmol/L and an increase in serum bicarb of ≥3 mmol/L.” answer “3.5-5.0 mmol/L; ≥3 mmol/L increase”.
+-For “Composite endpoint of AP and total bilirubin: AP < 1.67 × ULN, ≥ 15% decrease in AP, and Total bilirubin ≤ ULN.” answer “< 1.67 × ULN, ≥ 15% decrease; ≤ ULN”.
+
+
+## 7. Count the “number of outcomes” defined by the cutoffs
+### 7.1. “Not applicable”
+-Outcomes with no cutoffs reported.
+-Outcomes not defined by cutoffs.
+-Outcomes with cutoffs that are “Not reported”.
+
+### 7.2. One outcome
+-Binary or dichotomous outcomes
+-Time-to-event (survival) analyses
+-Categorical outcomes for which any individual participant can fall into at most one of the multiple categories based on a single measure; in other words, the categories are independent.
+
+Examples: 
+-”Birth weight <2500g”
+-”Time to resolution of fever (body temperature less than 37.0°C)”
+-“Categorical heart rate with 3 levels: <60, 60-100, >100”
+
+
+### 7.3. More than one outcome, count each outcome:
+a. There are cutoffs for more than one binary or continuous outcomes that do not form a composite.
+
+Example: “Objective response rate, complete response rate, and time to complete response. Response measured by Response Evaluation Criteria in Solid Tumors (RECIST).”
+
+b. Cutoffs create categories for a single measure, and a single participant could fall into more than one of the categories (e.g., cutoffs have overlapping ranges).
+
+Examples of cutoffs with overlapping ranges:
+-“Proportions of participants with severe depression (BDI>29) and moderate or severe depression (BDI>20)”.
+-”Proportion of subjects with plasma HIV-1 RNA <50 c/mL and <400 c/mL over time.”
+-”Preterm birth <34 and <37 weeks gestation.”
+-”Percentage of schedule fingerstick checks < 70 mg/dL, < 60 mg/dL, <50 mg/dL.”
+
+
+
+c. >=2 groups defined by the cutoffs or categories are analyzed separately.
+
+Example: “Time to glucose level >5.6 mg/dL and Time to glucose level from 4 to 5.5 mg/dL”
+
+
+# Examples
+## Example 1
+Question: “Outcome Measure: Change in lumbar spine (LS) areal bone mineral density (BMD) Z-score at Month 12 relative to baseline. Outcome Description: . Time Frame:1 year“. What are the "Attribute categorized", "Cutoff", and “Number of outcomes” of this outcome?
+
+Rationale, Cutoffs: The outcome measures “Change in lumbar spine (LS) areal bone mineral density (BMD) Z-score”. No cutoffs are being used to define outcomes for individual participants
+
+Attribute categorized: Not applicable
+
+Cutoffs: Not applicable
+
+Number of outcomes defined by cutoffs: Not applicable
+
+
+## Example 2
+Question: “Outcome Measure: Change in Albany Panic and Phobia Questionnaire. Outcome Description: The APPQ is a 27-item self-report measure that assesses agoraphobia, social anxiety, and interoceptive avoidance. Each subscale has been shown to have good internal consistency ( s > .85) and temporal stability (rs > .87). Time Frame: baseline, immediate post-treatment, 6-month follow-up”. What are the "Attribute categorized", "Cutoff", and “Number of outcomes” of this outcome?
+
+Rationale, Cutoffs
+This outcome measures continuous change in APPQ scores. The internal consistency and temporal stability values (>.85 and >.87) are properties of the instrument, not cutoffs used to define outcomes. No cutoffs are being used to define outcomes for individual participants.
+
+Attribute categorized: Not applicable
+
+Cutoffs: Not applicable
+
+Number of outcomes defined by cutoffs: Not applicable
+
+
+## Example 3
+Question: “Outcome Measure: Proportion with HBV DNA <20 IU/mL. Outcome Description: . Time Frame: .” What are the "Attribute categorized", "Cutoff", and “Number of outcomes” of this outcome?
+
+Rationale, Cutoffs: "<20 IU/mL" is mentioned for HBV DNA. "Attribute categorized" and "Cutoffs" are applicable because the outcome is defined by categorizing a continuous measurement (HBV DNA level) using a specific cutoff (<20 IU/mL). The attribute being categorized is HBV DNA. Following rule 5.2, avoid unnecessary words like "level". Following rule 6.1 for binary categories, name the single cutoff. Following rule 6.5, include the unit of measurement. Following rule 6.6, include the operational sign. Each participant can only fall into one of two categories based on a single measure
+
+Attribute categorized: HBV DNA
+
+Cutoffs: <20 IU/mL
+
+Number of outcomes defined by cutoffs: 1
+
+## Example 4
+Question: “Outcome Measure: Time to sustained remission on minimal steroid therapy; Outcome Description: Time from randomization to the time of the subject's initial reduction of prednisone/prednisolone dose to <=10 mg/day and maintained a dose <=10 mg/day with no new or nonhealing (established) lesions for >=8 weeks and maintained the status until Week 60 will be assessed. Time Frame: Up to 60 weeks“. What are the "Attribute categorized", "Cutoff", and “Number of outcomes” of this outcome?
+
+Rationale, Cutoffs: Two cutoffs are mentioned: "<=10 mg/day" for prednisone/prednisolone dose, and ">=8 weeks" for duration of maintenance. "Attribute categorized" and "Cutoffs" are applicable because the outcome is defined by categorizing continuous measurement for individual participants. The attribute being categorized is prednisone/prednisolone dose and a duration. The cutoffs should include units (mg/day) and operational signs. The cutoffs are for different attributes (the dose and duration requirements) and therefore should be separated by semicolon. There are multiple criteria, but they all contribute to defining a single outcome.
+
+Attribute categorized: Prednisone/prednisolone dose; Maintenance period
+
+Cutoffs: ≤10 mg/day; ≥8 weeks
+
+Number of outcomes defined by cutoffs: 1
+
+## Example 5
+Question: "Outcome Measure: Progression-free Survival (PFS) per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST 1.1). Outcome Description: PFS is defined as the time from randomization to the first documented progressive disease (PD) or death due to any cause, whichever occurs first. PFS will be assessed by blinded independent central review (BICR) using RECIST 1.1. Per RECIST 1.1, PD is defined as at least a 20% increase in the sum of diameters of target lesions. In addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 mm. Note: The appearance of one or more new lesions is also considered PD. The PFS for participants will be presented. Time Frame: Up to approximately 32 months". What are the "Attribute categorized", "Cutoff", and “Number of outcomes” of this outcome?
+
+Rationale, Cutoffs: Two cutoffs are mentioned: "≥20% increase" and "≥5 mm absolute increase”. "Attribute categorized" and "Cutoffs" are applicable because the outcome is defined by categorizing measurements of tumor size for individual participants. The specific measure being categorized is sum of target lesion diameters. The "Cutoffs" should include percentage and absolute change as well as operational signs. The "Cutoffs" should be separated with commas, because they are for the same attribute. There are multiple criteria, but they all contribute to defining a single outcome (PFS).
+
+Attribute categorized: Sum of target lesion diameters
+
+Cutoffs: ≥20% increase, ≥5 mm absolute increase
+
+Number of outcomes defined by cutoffs: 1
+
+## Example 6
+Question: "Outcome Measure: Percentage of Participants Achieving HbA1c Goals of < 7%, <= 6.5%, and < 6.5% Through Week 28. Outcome Description: The percentage of participants achieving HbA1c goals of < 7%, <= 6.5%, and < 6.5% through Week 28 were compared between treatments using the Cochran-Mantel-Haenszel (CMH) procedure, in which screening HbA1c strata and background diabetes therapy strata served as the stratification factors. Time Frame: Weeks 0, 4, 12, 20 and 28". What are the "Attribute categorized", "Cutoff", and “Number of outcomes” of this outcome?
+
+Rationale, Cutoffs: Three cutoffs are mentioned: "< 7%", "<= 6.5%", "< 6.5%". Both "Attribute categorized" and "Cutoffs" are applicable because the outcome involves categorizing a continuous measurement (HbA1c) for individual participants. The "Attribute categorized" is "HbA1c". The "Cutoffs" should be separated with commas because they are for the same attribute. The cutoffs create overlapping ranges; A single participant could fall into more than one category. Overlapping ranges requires counting each outcome separately,
+
+Attribute categorized: HbA1c
+
+Cutoffs: <7%, ≤6.5%, <6.5%
+
+Number of outcomes defined by cutoffs: 3
+
+## Example 7
+Question: “Outcome Measure: The proportion of participants cured based on their collarette score. Outcome Description: . Time Frame: 43 days”. What are the "Attribute categorized", "Cutoff", and “Number of outcomes” of this outcome?
+
+Rationale, Cutoffs
+The outcome seems to involve categorizing participants based on a score, but the actual cutoff value(s) used to define "cured" are not reported. The attribute is "collarette score". The "Cutoffs" is "Not reported" because no specific cutoff is provided. The "Number of outcomes" is "Not applicable" for outcomes with cutoffs that are "Not reported"
+
+Attribute categorized: Collarette score
+
+Cutoffs: Not reported
+
+Number of outcomes defined by cutoffs: Not applicable
+
+
+## Example 8
+Q: “Outcome Measure: 12-item Zarit Burden Short Form Measuring Caregiver Burden. Outcome Description: Caregiver burden as measured by the 12-item Zarit Burden Short Form. Scores range from 0-48, with higher scores indicating burden; scores over 17 indicate particularly high levels of caregiver burden. Time Frame: Baseline, 4 month (short-term follow-up), 8 month (long-term)”. What are the "Attribute categorized", "Cutoff", and “Number of outcomes” of this outcome?
+
+Rationale, Cutoffs
+The outcome measure is "12-item Zarit Burden Short Form Measuring Caregiver Burden". The description provides additional details about scoring. The scores range from 0-48, with a suggested cutoff of >17 indicating high caregiver burden. The score ranges and cutoffs are provided for interpretation purposes. No cutoffs are used to define outcomes for participants. 
+
+Attribute categorized: Not applicable
+Cutoffs: Not applicable
+Number of outcomes defined by cutoffs: Not applicable
+
+## Example 9
+Question: “Outcome Measure: Percentage of Participants With Categorized Percent Change in Partial Seizure Frequency Per 28 Days From Baseline to the 12-week Treatment Period. Outcome Description: . Time Frame:From Baseline to 12-week Treatment Period. Classes: 100%; 75% to less than 100%; 50% to less than 75%; 25% to less than 50%; -25% to less than 25%; less than-25%“. What are the "Attribute categorized", "Cutoff", and “Number of outcomes” of this outcome?
+
+Rationale, Cutoffs: The attribute being categorized is “Percent change in partial seizure frequency.” This is a single outcome measure (percent change), which is divided into multiple, mutually exclusive categories listed in “Classes”(e.g., 100%; 75% to <100%; 50% to <75%; etc.). Each participant would fall into exactly one of these non-overlapping categories. 
+
+Attribute categorized: Percent change in partial seizure frequency
+Cutoffs: 100%, 75% to <100%, 50% to <75%, 25% to <50%, -25% to <25%, < -25%
+Number of outcomes: 1
+
+# Task
+To answer each question, think step by step:
+1. Identify all cutoffs mentioned.
+2. Determine whether “Attribute categorized” and “Cutoffs” are applicable.
+3. If applicable, name the “Attribute categorized” and and the “Cutoffs”.
+4. Determine the number of outcomes defined by cutoffs.
+5. Provide the reasons for your answers as in the examples above.
+
+Do not use information from other outcomes in the input to derive the answer for the current outcome. 
+
+Respond as a clinician and scientist with expertise in clinical trial outcomes, and training in epidemiology and biostatistics.
+
+ 
+## Format
+Return a table in proper JSON format with 'table' as the overall key, and 'columns' and 'rows' as other keys. The responses will be within lists, not dictionaries. No additional text will be added beyond the JSON.
+The table will include each outcome in a row, organized as follows:
+Column 1: "Version"
+Column 2: "Identifier"
+Column 3: "Rationale, Cutoffs"
+Column 4: "Attribute categorized"
+Column 5: "Cutoffs"
+Column 6: "Number of outcomes defined by cutoffs"
+
+## Table structure
+Headers: The first row will include the column headers above.
+Column 1: Enter the contents of "Version" of the input table verbatim.
+Column 2: Enter the contents of "Identifier" of the input table verbatim.
+Column 3: In the “Rationale, Cutoffs”, provide the chain of thoughts for determining the "Attribute categorized", "Cutoffs", and “Number of outcomes”.
+Column 4: Answer the "Attribute categorized" or "Not applicable" based on the chain of thoughts. 
+Column 5: Enter the "Cutoffs" or "Not reported" or "Not applicable" based on the chain of thoughts.
+Column 6: Enter the number of outcomes based on the chain of thoughts.
+
+Ensure all outcomes are described. If there are more outcomes in the input than the number of rows in the table, revisit the table and add any missing outcomes.

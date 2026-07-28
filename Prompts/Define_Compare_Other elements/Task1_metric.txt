@@ -1,0 +1,342 @@
+Prompt 2: Metric
+# Guidelines for Identifying and Defining "Metric"
+-In clinical trials, outcomes are defined using multiple elements. "Metric" is one of those elements.
+
+## 1. Definition of "Metric": The unit of measuring scores at the individual participant level. Possible answers: “End value”, “Duration”, “Variability or average per person”, “Change from baseline”, “Events per person”, “Rate of change (repeated measures)”, “Time-to-event”, “Sum per person”, “Maximum per person”, or “Minimum per person”.
+-Sometimes "Not reported" or “Not valid”.
+
+IMPORTANT: Focus on participant-level measurement.
+
+## 2. Definitions of possible answers
+
+### A.”End value”: A single count or score per person, not computed based on other values
+-Only one value per participant is used in the analysis at a time.
+-Does not involve calculations across different time points (e.g., change, average, sum, maximum, minimum, or slope).
+-For continuous and categorical variables, often a participant’s score on a test or questionnaire at the end of the study.
+-For binary variables, often the risk of an event or the proportion who score above or below a threshold.
+-A single value or timepoint alone is not sufficient. It needs to not involve calculations across two or more time points (i.e., not a change, average, sum, maximum, minimum, or slope in a participant’s score).
+-Time is not part of the outcome definition.
+-Answer “End value” if the outcome measures the “cumulative incidence” of an event and there is no explicit indication that the outcome will be assessed using time-to-event analysis.
+-Answer "End value” if the outcome measures the proportion, percentage, or number of participants with a change in the status of a directly observable binary variable (e.g., occurrence of an incident event, completion or initiation of an action) between baseline and a second time point and all participants must have had the same baseline value. This alone is not sufficient, the outcome measure must clearly not be “Time-to-event”.
+-Answer “Time-to-event” rather than “End value” if the “Outcome measure” or “Outcome description” indicates that “Time-to-event” analyses will be conducted in addition to comparing the proportion of people with the event.
+
+
+#### Examples
+-Influenza vaccine antibodies post-vaccination
+-Recruitment rate
+-Cumulative incidence of mortality
+-Proportion of participants with new onset type 2 diabetes
+-Number of participants with adverse events
+
+### B. "Duration": A continuous variable representing the amount of time per person
+-The outcome is defined by the duration or length of time, or the proportion of time, during which an event or activity occurs or does not occur for each participant, and the event status can be observed for all participants during the study period.
+-The answer is not “Duration” if the outcome assesses the number of occurrences of an event within a period of time.
+
+#### Examples
+-Length of hospital stay
+-Duration of medication use
+-Proportion of days with pain
+-Number of drinking days per week
+
+### C. "Variability or average per person": The variability or average of a continuous measure per person
+-The outcome in each participant is defined by calculating the variability or average of the value measured in the same individual during multiple intervals.
+-Not used for outcomes defined by the amount or proportion of time (e.g., proportion of days)
+-Must be the variability or average at the individual level
+-Count is not continuous
+
+#### Examples of variability or average per person
+-Variability in stride length
+-Mean Amplitude of Glycemic Excursions (MAGE)
+
+#### Examples of counts that are not variability or average per person
+-Drinks per week
+-Daily step count
+
+### D. "Change from baseline": Difference between two timepoints per person
+-Difference between an individual participant’s score at baseline and a second timepoint is used for analysis.
+-Might be a change in continuous or ordinal scale, or change in a categorical value. 
+-Binary outcomes might be defined by change in individual participant scores when participants do not have the same baseline value.
+-Calculating “Change from baseline” can be indicated by words like “change”, “reduction”, “decrease”, “improvement”, “maintain”, “increase”, “enlargement”, “loss”, “gain”, “worsening”, or “growth”.
+-Answer “Change from baseline” for outcomes defined by the proportion of participants with a specified level of change in a continuous or ordinal outcome (e.g., proportion of participants with 50% improvement).
+-The answer might be “Change from baseline” if the “Outcome measure” or “Outcome description” describes change even if the “Timeframe” mentions only one time (i.e., 0 or “baseline” might be implied).
+-The presence of 2 or more timepoints does not necessarily suggest that the “Metric” is “Change from baseline”.
+-”Change from baseline” refers to change within a participant, not the  “change” between the treatment and control group.
+
+#### Examples:
+-Change From Baseline in Lumbar Spine Bone Mineral Density (BMD)
+-Proportion of patients who achieve at least 50% reduction in pain
+-% change in forced vital capacity (FVC)
+-​​Average participant change in body mass index
+-Absolute Lymphocyte Count change score
+
+### E. "Rate of change (repeated measures)”: The speed of change over time per person (3 or more timepoints)
+-Requires explicit information about using “repeated measures” in a single analysis to calculate the “rate of change” or “slope” (e.g., analyzed by mixed effect models). 
+-The “Timeframe” must include at least 2 timepoints in addition to time 0 or “baseline” (which might be implied), or the outcome must be assessed “Up to” or “Until” a specified time.
+-Use of 3 or more timepoints is necessary but not sufficient. 
+
+#### Examples:
+-Mean change in A1c per month (slope)
+-Annualized Estimated Glomerular Filtration Rate (eGFR) Slope Over Time
+-Rate of change in Parkinson's Disease Questionnaire-39 score
+-Repeated measures analysis of change in depression scores
+
+#### Exceptions:
+-Use "End value” if separate analyses are done at each timepoint.
+-Use "Change from baseline" if separate analyses on the change from baseline are done at each of the different timepoints.
+-Never use with only 1 or 2 timepoints.
+-Use "Change from baseline" if the outcome is defined by the slope between exactly 2  time points.
+
+
+### F. “Events per person”: The sum of discrete events per person
+#### F.1 First, determine whether the event would be recorded/analyzed once or multiple times for a person in a clinical trial. The outcomes you assess were all predefined in clinical trials and assessed within the specified timeframe. 
+
+##### Examples of events that would be recorded/analyzed only once per person in a RCT:
+-Occurrence of an irreversible outcome (e.g., birth, death, permanent cessation of a status)
+-First occurrence or onset of a chronic health condition (e.g., recurrence of breast cancer, incident upper respiratory infection, new onset diabetes)
+-Permanent change in study status (e.g., treatment discontinuation, study withdrawal)
+-An end value above or below a threshold on a continuous scale (e.g., 50% reduction in pain)
+
+#####  Examples of events that could be recorded multiple times per person in a RCT:
+-Falls
+-Steps
+-Asthma attacks
+-Migraines
+-Doctor visits
+-Adverse events
+-Smoking cigarettes
+
+-Do not answer “Events per person” for outcomes that can happen to a person only once in a clinical trial.
+
+#### F.2 Then consider whether the outcome matches the following definition of “Events per person”:
+-The number or average number of times that an event or discrete activities occurs per trial participant.
+-Used for counts of events or discrete activities that can occur multiple times in a participant (e.g., falling).
+-The total number of binary events per participant during a trial, or the average number of discrete occurrences per participant over a period of time.
+-Implied by statistical terms or methods for count data (e.g., Poisson, Negative binomial).
+-Not used for composite outcomes that can occur only once for a single participant.
+-Not used for cumulative incidence (risk) in a group of participants.
+-Not used for the number of people with an event.
+-Not used for sum of time units (e.g., number of minutes, proportion of days).
+
+#### Examples
+-Number of sessions completed per participant
+-Proportion of intervention sessions attended per participant
+-Average daily step count
+-Number of falls per person during the study period
+-Number of times the anesthesiologist adjusts ventilator settings
+
+### G. ”Time-to-event”: Represents both length of time and event status (i.e., the length of time until an event of interest or censoring occurs in each person)
+
+#### G.1 First consider whether the event can occur more than once for a person in a clinical trial following the instructions above (see F.1).
+
+####  G.2 Then consider whether the outcome matches the following definition of “Time-to-Event”
+-Used only for events that can occur “Once” in a participant.
+-Not all participants necessarily experience the event during the study period.
+-The outcome is defined as the time until an event occurs (e.g., “time from baseline to treatment discontinuation”), or statistical terms or tests used for time-to-event analysis  indicate the metric is "Time-to-event".
+-Answer “Time-to-event” if the outcome can occur only once in a person in a clinical trial and is defined by the incidence per unit of time (e.g., “incidence of HIV infection per PY”)
+-Exception: Answer “End value” for time to reach a threshold at the group level (e.g., time to recruit 60 participants)
+
+#### Examples of statistical terms or tests used for time-to-event analysis, which indicate the Metric is “Time-to-Event”:
+log rank or logrank
+Cumulative event rate
+Cumulative incidence rate (CIR)
+Incidence rate or Incidence rate ratio (IRR)
+Competing event
+Competing risk analysis
+Gray’s test
+Cox regression or Cox proportional hazards
+Hazard ratio
+Kaplan-Meier
+Accelerated failure time model
+Schoenfeld residual test
+Restricted mean survival time
+
+#### Examples:
+-Overall survival
+-Time to progression
+-Incidence rate of type 2 diabetes
+
+
+### H. "Sum per person": The total amount of a continuous measure (e.g., drug or biomarker) over time.
+-Might be the area under the curve which is often in pharmacokinetic studies.
+
+#### Examples:
+-Area Under the Curve From Time Zero to Extrapolated Infinite Time (AUCinf) of Factor VIII Activity
+-Cumulative dose of drug administered
+-Total drug cost per participant
+
+### I. "Maximum per person": The maximum value of a non-binary score over time.
+-Might be the maximum value in a concentration-time curve (i.e. C-max). 
+-Requires explicit evidence that the maximum value is of interest (or largest, most, etc.).
+
+#### Examples:
+-Maximum Concentration of Factor VIII Activity
+
+### J. "Minimum per person": The minimum value of a non-binary score over time.
+-Might be the minimum value in a concentration-time curve (i.e., C-min).
+-Requires explicit evidence that the minimum value is of interest (or smallest, least, etc.).
+
+#### Examples:
+-Minimum observed plasma concentration of ibrutinib
+
+### K. Multiple metrics
+-If multiple metrics form a single outcome derived through multiple calculations, answer the "Metric” that represents the last step of the calculation.
+
+#### Examples
+-Answer “Change from baseline” for “Change from baseline in gait stride variability”.
+-Answer “Variability or average per person” for “Average daily number of cigarettes smoked”
+
+### L. “Not valid”: Multiple outcomes are defined using different metrics.
+-Not used for “Composite” outcomes
+
+#### Examples of “Not valid” outcomes
+-“Progression and time to progression”
+-”Hospital admission and length of stay”
+
+### M. ”Not reported”
+An outcome is classified as "Not reported" if none of the previous definitions apply and there is insufficient information to clearly define the metric or analysis method.
+1. Events reported or analyzed multiple times per participant (e.g., repeated events in a randomized clinical trial):
+The answer is "Not reported" if there is insufficient information to determine whether the outcome is based on:
+-The number of events per participant, or
+-The number, proportion, or percentage of participants experiencing the event.
+This includes outcomes described by terms like "Incidence", "Frequency", or "Rate".
+2. Events reported or analyzed once per participant (e.g., single-event outcomes in a randomized clinical trial):
+The answer is "Not reported" if there is insufficient information to determine whether the outcome will be analyzed using:
+-The proportion of participants experiencing the event, or
+-A time-to-event analysis (e.g., log-rank test).
+This includes outcomes described by terms like "Incidence", "Frequency", or "Rate".
+3. Repeatedly monitored events or activities (e.g., ongoing measures):
+The answer is "Not reported" if it is unclear whether the outcome will be defined by:
+-The total amount of the event or activity (e.g., total exposure), or
+-The amount of time associated with the event or activity (e.g., time exposed).
+
+
+
+# 3. Examples
+## Example 1
+Question: “Outcome Measure: Incidence of at least 1 RBC transfusion or hemoglobin less than or equal to 8.0 g/dL from study day 1 to end of treatment period. Outcome Description: . Time Frame: study day 1 until end of efficacy treatment period“. What is the “Metric” of this outcome?
+
+Rationale, Metric:
+The outcome measures occurrence of either RBC transfusion or hemoglobin less than or equal to 8.0 g/dL (low hemoglobin). “Incidence” means new cases, indicating the event can happen only once per person during the study period. "At least 1" also indicates the outcome is concerned with only the first occurrence of either event in each person, not the number of events. Thus, the answer is not “Events per person”. There is not enough information to determine whether the outcome will be analyzed using the proportion of people with the event or using each participant’s time-to-event (e.g., log-rank test).
+
+Metric: Not reported
+
+## Example 2
+Question: “Outcome Measure: Volumetric BMD. Outcome Description: Measured at baseline and after one year at the lumbar spine and distal 1/3 of the non-dominant antebrachii by Q-CT. Time Frame: Baseline, one year.” What is the “Metric” of this outcome?
+
+Rationale, Metric:
+The outcome measures volumetric BMD, which means “Volumetric Bone Mineral Density (BMD)”. Measurements are taken at baseline and one year. The presence of 2 or more time points does not necessarily suggest that the 'Metric' is 'Change from baseline'. There is no mention of a repeated measures analysis or of assessing change between two timepoints. A single score without calculations across timepoints is used for the analysis.
+
+Metric: End value
+
+## Example 3
+Question: “Outcome Measure: Proportion of participants with change in medication assisted treatment (MAT) initiation from baseline, as measured by a utilization review. Outcome Description: Initiation of MAT as measured by a chart utilization review. Time Frame: 6 weeks, 3 months, 6 months.”. What is the “Metric” of this outcome? 
+
+Rationale, Metric:
+The outcome measures "Change in MAT initiation from baseline".Initiation of MAT is a binary event. Initiation can occur only once per participant, so the answer is not “Events per person”. The baseline value would be the same for all trial participants (not initiated), so “Metric” is not "Change from baseline". Multiple timepoints are mentioned, but there is no mention of a single analysis including all timepoints or of a repeated measures analysis, so the answer is not “Rate of change”. The phrase “proportion of participants with” indicates that the outcome focuses on the binary status of MAT initiation, which is a single value at each timepoint without accounting for the time component.
+
+Metric: End value
+
+## Example 4
+Question: “Outcome Measure: All-cause mortality rate. Outcome Description: . Time Frame: At Day 28, Day 90 and Day 180.” What is the “Metric” of this outcome?
+
+Rationale, Metric:
+All-cause mortality is a binary event that can occur only once per participant. In clinical trials, all-cause mortality can be analyzed either as a proportion or using time-to-event analysis. The word “rate” itself is not sufficient to indicate that the outcome is analyzed as time-to-event. There is not enough information to determine whether the outcome is defined by the proportion of participants who died (i.e., end value) or the incidence rate (i.e., time-to-event).
+ 
+Metric: Not reported
+
+## Example 5
+Question: “Outcome Measure: Time in Range 70-180 mg/dL. Outcome Description: Percentage of time CGM in range 70 to 180 mg/dL. Time frame: 3 weeks”. What is the “Metric” of this outcome?
+
+Rationale, Metric:
+The outcome measures the percentage of time for each participant during which glucose is in target range. Each participant’s glucose is monitored continuously over 3 weeks. The outcome is defined by the percentage or proportion of time
+
+Metric: Duration
+
+## Example 6
+Question: “Outcome Measure: Gait Variability. Outcome Description: Between group difference in change per arm in gait stride length variability, measured in standard deviation units, collected during normal walking and walking while talking on an instrumented walkway. Gait variability is defined as differences in length from one stride to the next. Time Frame: 2 months.”. What is the “Metric” of this outcome?
+
+Rationale, Metric:
+Although the description mentions between-group difference, Metric refers to the definition of the outcome at the individual participant level. Each individual’s outcome is defined by change in gait stride length variability. Gait variability is defined as differences in length from one stride to the next. The outcome is further defined as the “change” in gait variability. Although the time frame only mentions one time point (“2 months”), the phrase “change per arm”  implies that this outcome will be assessed at baseline. Gait variability is likely to be different for each participant at baseline. Calculating the difference between 2 months and baseline is the final step in deriving each participant’s score. The metric is the difference between an individual participant’s score at baseline and a second timepoint.
+
+Metric: Change from baseline
+
+## Example 7
+Question: “Outcome Measure: Percentage of Participants With Improvement in the Functional Assessment of Cancer Therapy - Hepatobiliary (FACT-Hep) Total Score 6 Months After the Start of Treatment. Outcome Description: . Time Frame: 6 months”. What is the “Metric” of this outcome?
+
+Rationale, Metric:
+“Functional Assessment of Cancer Therapy - Hepatobiliary (FACT-Hep) Total Score” is a continuous measure. FACT-Hep Total Score is probably different across participants at the baseline. Although the time frame only mentions one time point (“6 months”), the word “Improvement” implies that this outcome will be assessed at baseline. The outcome assesses the proportion of participants with a specified level of change in this continuous measure.
+
+Metric: Change from baseline
+
+## Example 8
+Question: “Outcome Measure: Change in score on the Tinnitus Questionnaire (TQ). Outcome Description: Initial TQ administration will determine eligibility (score greater than or equal to 40) for the TRTT. The primary outcome is a repeated measures analysis of change in TQ score from baseline to follow-up. Time Frame: Baseline to 3, 6, 12, and 18 months follow-up." What is the “Metric” of this outcome?
+
+Rationale, Metric:
+The outcome measures “change in score on the Tinnitus Questionnaire (TQ)”. More than two timepoints are mentioned (baseline, 3, 6, 12, and 18 months). Although “Change in score” is mentioned, all time points will be analyzed in a single analysis using a "repeated measures analysis of change".
+
+Metric: Rate of change (repeated measures)
+
+## Example 9
+Question: "Outcome Measure: Blood Pressure (BP) Exacerbation Event Rate Per 100 Participant Years. Outcome Description: BP exacerbation event is defined (based on post-dialysis BP) as SBP >=25 mmHg increased from Baseline or SBP >=180 mmHg; or DBP >=15 mmHg increased from Baseline or DBP >=110 mmHg. The BP exacerbation events per 100 participant years was estimated using the Negative Binomial Model. Time Frame: Up to 52 weeks”. What is the “Metric” of this outcome?
+
+Rationale, Metric:
+The outcome measures blood pressure (BP) exacerbations. BP exacerbation is a discrete event that can occur multiple times per participant in a clinical trial. The use of a negative binomial model indicates that the outcome is a count for each individual, not the first occurrence of the event. The outcome is a count of events that can occur multiple times in a participant.
+
+Metric: Events per person
+
+## Example 10
+Question: “Outcome Measure: Percentage of Participants Alive (Overall Mortality). Outcome Description: Survival time is defined as time from randomization to the date of death from any cause or last known follow-up (censored). Survival rates are estimated by the Kaplan-Meier method. Pairwise comparisons of the overall distributions of failure times are reported in statistical analysis section, with five-year rates reported here. The study was designed for the final analysis to occur after all participants had been on study for at least 5 years, but the data monitoring committee decided to release results after the third interim analysis. Time Frame: From randomization to last follow-up. Maximum follow-up at time of analysis was 10.5 years.” What is the “Metric” of this outcome?
+
+Rationale, Metric:
+The outcome measures “overall mortality” Mortality is a binary event that can occur only once per participant. Mortality can be analyzed either as a binary variable or using time-to-event analysis. Not all participants will necessarily experience the event during the trial. The text explicitly mentions the definition of “survival time”, the use of Kaplan-Meier method, and censoring. These are explicit indications of time-to-event analysis. Although the outcome also mentions “percentage of participants alive”, the answer is “Time-to-event” because the text explicitly mentions time-to-event analyses will be conducted in addition to comparing the proportion of people with the event.
+
+Metric: Time-to-event
+
+## Example 11
+Question: “Outcome Measure: Adverse Events. Outcome Description: Describe the main adverse events. Time Frame: At any time during the study period”. What is the “Metric” of this outcome?
+
+Rationale, Metric:
+In clinical trials, Adverse Events (AEs) in individual patients can be measured by documenting negative health occurrences reported by patients or observed by clinicians. Adverse events might be categorized by severity, frequency, and type.  Adverse events can occur multiple times for an individual in a clinical trial. Researchers sometimes assess the proportion of patients experiencing specific AEs or severe AEs, and they sometimes assess the number or frequency of events per participant. There is not enough information to determine whether the outcome is defined as the number of events per participant or the number of participants with adverse events.
+
+Metric: Not reported
+
+## Example 12
+Question: “Outcome Measure: Adverse Events. Outcome Description: Number of participants with AEs. Time Frame: At any time during the study period”. What is the “Metric” of this outcome?
+
+Rationale, Metric:
+Adverse events can occur multiple times for an individual in a clinical trial. The text states explicitly that the outcome is defined by the “Number of participants with AEs”.
+
+Metric: End value
+
+
+## Example 13
+Question: “Outcome Measure: Objective response rate, duration to response, and duration to complete response according to RECIST Version 1.1 as determined by investigator assessment; Outcome Description: ; Time Frame: Tumor assessments will be carried out at screening and every 6 weeks ± 1 week from the time of randomization thereafter until tumor progression“. What is the “Metric” of this outcome?
+
+Rationale, Metric:
+Multiple outcomes are mentioned, which are “response rate”, “duration to response” and “duration to complete remission”. The outcomes do not form a single composite outcome. “Objective response rate” is a standard term which refers to the proportion of patients whose tumors have responded to a treatment and therefore “Metric” is “End value”. “Metric” is “Time to event” for the outcomes “duration to response” and “duration to complete response”. Multiple outcomes are defined by different metrics.
+
+Metric: Not valid
+
+# Task
+To answer each question, think step by step. Define the “Metric” of each outcome listed in the input and provide the reasons for your answers as in the examples above. 
+
+Do not use information from one outcome to derive the answer for another outcome. Treat each outcome independently.
+
+Respond as a clinician and scientist with medical knowledge, expertise in medical terminologies and knowledge of how to diagnose and measure the health conditions being assessed in this study, and training in epidemiology and biostatistics.
+
+## Format
+Return a table in proper JSON format with 'table' as the overall key, and 'columns' and 'rows' as other keys. The responses will be within lists, not dictionaries. No additional text will be added beyond the JSON.
+
+## Table structure
+The table will include each outcome in a row, organized as follows:
+-Column 1: “Identifier”
+-Column 2: "Rationale, Metric"
+-Column 3: “Metric”
+
+## Instructions for populating the table
+Headers: The first row will include the column headers above.
+Column 1: Enter the contents of “Identifier” of the input table verbatim.
+Column 2: In "Rationale, Metric", provide your chain of thoughts for defining the "Metric".
+Column 3: Enter the “Metric” definition or "Not reported" or “Not valid” based on the chain of thoughts.
+Ensure all outcomes are described. If there are more outcomes in the input than the number of rows in the table, revisit the table and add any missing outcomes.
+
