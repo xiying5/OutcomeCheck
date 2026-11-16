@@ -180,6 +180,7 @@ Defines the specific measurement in both versions and compares it.
 
 **4. `Step 2_Define_Compare_Metric_Type_Time.ipynb`**
 Defines the specific metric and aggregation method in both versions, and compares metric, aggregation method and timepoint.
+*Reads:* `out_pro/{nctid}_merged.json`, `out_last_metric/{nctid}_merged.json` (metric), `out_last_agg/{nctid}_merged.json` (aggregation method), `out_last_time/{nctid}_merged.json` (timepoint)
 *Writes:* `{nctid}_comb.csv`, `metric_aggregation_method_definition_prospective.xlsx`, `metric_aggregation_method_definition_latest.xlsx`, `metric_aggregation_method_timepoint_change_status.xlsx`, `processing_cost_metric_aggregation_method_timepoint.xlsx`
 
 The three Step 2 notebooks are independent of one another and may be run in any order once *Step 1_Match outcomes* has completed.
@@ -254,6 +255,12 @@ If no outcome in the latest version can be matched to any prospective outcome, t
 ### Cost
 
 Every model call is logged. Expect the three Step 2 notebooks to dominate both runtime and cost; Step 1 makes no model calls.
+
+### Change log
+
+**November 2026.** `Step 2_Define_Compare_Metric_Type_Time.ipynb` was updated so that each task reads the latest-version outcomes from its own folder: `out_last_metric/` for specific metric, `out_last_agg/` for aggregation method and `out_last_time/` for timepoint. The copy posted here earlier read `out_last_cut/` for all three tasks. That folder holds only the outcome title, description, time frame and classes, so the prompts for specific metric and aggregation method did not receive the results-section fields they refer to (measure type, measure of dispersion/precision, unit of measure, statistical analysis method, outcome analysis parameter type). No other notebook or prompt changed.
+
+This applies to the copy of the notebook posted here. The main accuracy results reported in the paper, and the model output published with it, were generated with the results-section fields supplied to the metric and aggregation-method prompts.
 
 ### Reproducibility
 
