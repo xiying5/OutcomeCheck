@@ -1,4 +1,7 @@
 # OutcomeCheck
+
+[![Visits](https://hits.sh/github.com/xiying5/OutcomeCheck.svg?label=visits)](https://hits.sh/github.com/xiying5/OutcomeCheck/)
+
 **OutcomeCheck** is a pipeline developed to help researchers: (1) assess the completeness of trial outcome definitions, and (2) detect changes in outcome definitions between different registration versions on ClinicalTrials.gov. It is designed as a companion tool to the article, *"An automated approach to improve clinical trial registration and identify outcome changes on ClinicalTrials.gov"* (Ying X, et al. npj Digital Medicine 2026. doi:10.1038/s41746-026-03045-y).
 
 ---
