@@ -256,12 +256,14 @@ If no outcome in the latest version can be matched to any prospective outcome, t
 
 Every model call is logged. Expect the three Step 2 notebooks to dominate both runtime and cost; Step 1 makes no model calls.
 
-### Change log
+### Reproducibility
+
+Model output is not fully deterministic even with a fixed seed, and the model versions above may be retired by the provider. Re-running will produce similar but not identical results. 
+
+---
+
+## 8. Change log
 
 **November 2026.** `Step 2_Define_Compare_Metric_Type_Time.ipynb` was updated so that each task reads the latest-version outcomes from its own folder: `out_last_metric/` for specific metric, `out_last_agg/` for aggregation method and `out_last_time/` for timepoint. The copy posted here earlier read `out_last_cut/` for all three tasks. That folder holds only the outcome title, description, time frame and classes, so the prompts for specific metric and aggregation method did not receive the results-section fields they refer to (measure type, measure of dispersion/precision, unit of measure, statistical analysis method, outcome analysis parameter type). No other notebook or prompt changed.
 
 This applies to the copy of the notebook posted here. The main accuracy results reported in the paper, and the model output published with it, were generated with the results-section fields supplied to the metric and aggregation-method prompts.
-
-### Reproducibility
-
-Model output is not fully deterministic even with a fixed seed, and the model versions above may be retired by the provider. Re-running will produce similar but not identical results. 
