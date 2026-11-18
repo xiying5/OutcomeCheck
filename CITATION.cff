@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this code, the prompts or the data, please cite the article below."
+title: "OutcomeCheck"
+type: software
+authors:
+  - family-names: Ying
+    given-names: Xiangji
+repository-code: "https://github.com/xiying5/OutcomeCheck"
+license: MIT
+preferred-citation:
+  type: article
+  title: "An automated approach to improve clinical trial registration and to identify outcome changes on ClinicalTrials.gov"
+  authors:
+    - family-names: Ying
+      given-names: Xiangji
+    - family-names: Ninan
+      given-names: Kiran
+    - family-names: Oberste
+      given-names: Jean-Pierre
+    - family-names: Vorland
+      given-names: Colby J.
+    - family-names: Li
+      given-names: Tianjing
+    - family-names: Brown
+      given-names: Andrew W.
+    - family-names: Menke
+      given-names: Joe D.
+    - family-names: Qureshi
+      given-names: Riaz
+    - family-names: DeVito
+      given-names: Nicholas J.
+    - family-names: Page
+      given-names: Matthew J.
+    - family-names: McKenzie
+      given-names: Joanne E.
+    - family-names: Saldanha
+      given-names: Ian J.
+    - family-names: Zhang
+      given-names: Sirui
+    - family-names: Butcher
+      given-names: Nancy J.
+    - family-names: Offringa
+      given-names: Martin
+    - family-names: Cummins
+      given-names: Jamie
+    - family-names: Kilicoglu
+      given-names: Halil
+    - family-names: Mayo-Wilson
+      given-names: Evan
+  journal: "npj Digital Medicine"
+  volume: 9
+  issue: 1
+  start: 905
+  year: 2026
+  month: 7
+  doi: "10.1038/s41746-026-03045-y"
+  url: "https://www.nature.com/articles/s41746-026-03045-y"
